@@ -1,11 +1,14 @@
 # Daily Info Dashboard
 
-Python と RSS を使って、指定キーワードに関連する記事を毎日集め、業務活用や生活改善の観点で重要度が高い記事をローカル向け Markdown にまとめる最小構成です。Web 公開や自動実行は含まず、まずは手元で JSON を保存し、スマホで読みやすい `output/daily.md` を生成するところまでに絞っています。
+ Python と RSS を使って、指定キーワードに関連する記事を毎日集め、業務活用や生活改善の観点で重要度が高い記事を Markdown と静的HTMLにまとめる構成です。ローカル実行に加えて、GitHub Actions と GitHub Pages を使った毎朝の自動更新にも対応しています。
 
 ## 構成
 
 ```text
 daily-info-dashboard/
+├─ .github/
+│  └─ workflows/
+│     └─ daily-dashboard.yml
 ├─ README.md
 ├─ requirements.txt
 ├─ config/
@@ -25,12 +28,18 @@ daily-info-dashboard/
 pip install -r requirements.txt
 ```
 
-## 実行方法
+## ローカル実行
 
-RSS を取得して日付付き JSON を保存します。
+前日更新分の記事を取得して日付付き JSON を保存します。デフォルトでは JST 基準の昨日を対象にします。
 
 ```bash
 python scripts/fetch.py
+```
+
+任意の日付を対象にしたい場合:
+
+```bash
+python scripts/fetch.py --target-date 2026-05-07
 ```
 
 最新の JSON から、関連度と重要度を加味した Markdown と HTML を生成します。
@@ -44,6 +53,7 @@ python scripts/build_md.py
 - `data/raw/YYYY-MM-DD.json`
 - `output/daily.md`
 - `output/site/index.html`
+- `output/site/archive/index.html`
 - `output/site/YYYY-MM-DD/index.html`
 
 ## 情報源と調査テーマの管理
@@ -78,9 +88,9 @@ sources:
 ## いまの選定ロジック
 
 - 指定キーワードがタイトルや本文抜粋に含まれる記事だけを対象にします。
+- デフォルトでは JST 基準の昨日に公開された記事だけを対象にします。
 - URL 重複は除外します。
 - 業務で使いやすい更新、使い方、分析、ワークフロー、自動化などの語を含む記事を高く評価します。
-- 新しさも少しだけ加点します。
 - Markdown では、まず全体の重要記事 5 件を表示し、その後に各トピックごとの上位 3 件を表示します。
 
 ## 出力内容
@@ -95,10 +105,34 @@ sources:
 - 読むべき度
 - 内容要約
 
+HTML ページでは、各記事にブックマークボタンがあります。保存した記事は同じブラウザの `localStorage` に保持されます。
+
+## GitHub Actions と Pages
+
+ワークフローは `.github/workflows/daily-dashboard.yml` にあります。
+
+- 毎日 `07:00 JST` に実行したいので、GitHub Actions の `cron` は `22:00 UTC` に設定しています。
+- `python scripts/fetch.py` で昨日の記事を集めます。
+- `python scripts/build_md.py` で Markdown と静的HTMLを作ります。
+- `output/site` を GitHub Pages に配信します。
+
+### 公開されるページ
+
+- ルート `/` は最新の日付ページへ自動転送します。
+- `/archive/` は日付別アーカイブです。
+- `/{YYYY-MM-DD}/` はその日の記事ページです。
+
+### GitHub 側で必要な設定
+
+1. リポジトリを GitHub に push します。
+2. GitHub の `Settings > Pages` で `Build and deployment` を `GitHub Actions` にします。
+3. 初回は `Actions` タブから `Daily Dashboard` を手動実行して動作確認します。
+
 ## 仕様メモ
 
 - RSS の取得失敗は処理全体を止めず、警告を表示してスキップします。
 - 要約 AI API は使いません。RSS の本文抜粋から短い要約を作ります。
 - タイトルと要約の日本語化は翻訳サービスを使います。翻訳に失敗した場合は元の本文をそのまま表示します。
 - HTML はスマホで縦に流し読みしやすいよう、1記事あたりの高さを抑えたレイアウトです。
+- GitHub Actions の `cron` 実行は数分ずれることがあります。
 - GTM は初期設定では `Google Tag Manager` として扱っています。別の意味で使いたい場合は `topics` のキーワードを調整してください。

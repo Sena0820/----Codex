@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-import json
 import html
+import json
 import re
 from datetime import date
 from pathlib import Path
@@ -79,7 +79,7 @@ def tokenize(text: str) -> str:
     return normalized
 
 
-def score_item(item: dict[str, Any]) -> tuple[int, list[str]]:
+def score_item(item: dict[str, Any], target_date: str) -> tuple[int, list[str]]:
     title = tokenize(item.get("title", ""))
     summary = tokenize(item.get("summary", ""))
     combined = f"{title} {summary}"
@@ -116,16 +116,17 @@ def score_item(item: dict[str, Any]) -> tuple[int, list[str]]:
 
     published_at = item.get("published_at", "")
     if published_at:
-        try:
-            days_old = (date.today() - date.fromisoformat(published_at)).days
-            if days_old <= 7:
-                score += 4
-                reasons.append("直近 7 日の新しい記事")
-            elif days_old <= 30:
-                score += 2
-                reasons.append("直近 30 日の記事")
-        except ValueError:
-            pass
+        if published_at == target_date:
+            score += 6
+            reasons.append("対象日の記事")
+        else:
+            try:
+                days_old = (date.fromisoformat(target_date) - date.fromisoformat(published_at)).days
+                if days_old <= 7:
+                    score += 2
+                    reasons.append("直近 7 日の記事")
+            except ValueError:
+                pass
 
     if len(reasons) == 0:
         reasons.append("キーワード一致")
@@ -137,32 +138,26 @@ def build_summary(item: dict[str, Any]) -> str:
     summary = (item.get("summary") or "").strip()
     if not summary:
         return "RSS の本文抜粋がありませんでした。"
-    if len(summary) <= 180:
+    if len(summary) <= 150:
         return summary
-    return summary[:177].rstrip() + "..."
-
-
-def build_point_line(item: dict[str, Any], reasons: list[str]) -> str:
-    topic_text = ", ".join(item.get("matched_topics", [])) or "関連トピック"
-    reason_text = " / ".join(reasons)
-    return f"{topic_text} に関連。{reason_text}。"
+    return summary[:147].rstrip() + "..."
 
 
 def build_read_recommendation(score: int) -> str:
-    if score >= 22:
+    if score >= 24:
         return "かなり読む価値あり"
-    if score >= 15:
+    if score >= 16:
         return "読む価値あり"
-    if score >= 9:
+    if score >= 10:
         return "気になれば読む"
     return "優先度は低め"
 
 
-def select_top_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def select_top_items(items: list[dict[str, Any]], target_date: str) -> list[dict[str, Any]]:
     scored_items: list[dict[str, Any]] = []
 
     for item in items:
-        score, reasons = score_item(item)
+        score, reasons = score_item(item, target_date)
         item_copy = dict(item)
         item_copy["importance_score"] = score
         item_copy["importance_reasons"] = reasons
@@ -179,28 +174,9 @@ def select_top_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return scored_items
 
 
-def translate_title(title: str, translator: GoogleTranslator | None, cache: dict[str, str]) -> str:
-    if not title:
-        return "No Title"
-
-    if title in cache:
-        return cache[title]
-
-    translated = title
-    if translator is not None:
-        try:
-            translated = translator.translate(title)
-        except Exception:
-            translated = title
-
-    cache[title] = translated
-    return translated
-
-
 def translate_text(text: str, translator: GoogleTranslator | None, cache: dict[str, str]) -> str:
     if not text:
         return ""
-
     if text in cache:
         return cache[text]
 
@@ -228,15 +204,13 @@ def group_by_primary_topic(items: list[dict[str, Any]]) -> dict[str, list[dict[s
 def format_item_lines(
     item: dict[str, Any],
     translator: GoogleTranslator | None,
-    title_cache: dict[str, str],
-    summary_cache: dict[str, str],
+    text_cache: dict[str, str],
 ) -> list[str]:
     published_at = item.get("published_at") or "不明"
     original_title = item.get("title", "No Title")
-    translated_title = translate_title(original_title, translator, title_cache)
+    translated_title = translate_text(original_title, translator, text_cache)
     score = item.get("importance_score", 0)
-    original_summary = build_summary(item)
-    translated_summary = translate_text(original_summary, translator, summary_cache)
+    translated_summary = translate_text(build_summary(item), translator, text_cache)
     recommendation = build_read_recommendation(score)
 
     return [
@@ -252,53 +226,147 @@ def format_item_lines(
 def render_item_html(
     item: dict[str, Any],
     translator: GoogleTranslator | None,
-    title_cache: dict[str, str],
-    summary_cache: dict[str, str],
+    text_cache: dict[str, str],
+    target_date: str,
 ) -> str:
     published_at = item.get("published_at") or "不明"
     original_title = item.get("title", "No Title")
-    translated_title = translate_title(original_title, translator, title_cache)
-    translated_summary = translate_text(build_summary(item), translator, summary_cache)
+    translated_title = translate_text(original_title, translator, text_cache)
+    translated_summary = translate_text(build_summary(item), translator, text_cache)
     score = item.get("importance_score", 0)
     recommendation = build_read_recommendation(score)
     url = item.get("url", "")
     source_name = item.get("source_name", "")
+    item_id = html.escape(url)
+    topic_tags = ", ".join(item.get("matched_topics", []))
 
     return f"""
-    <article class="card">
+    <article class="card" data-bookmark-id="{item_id}" data-title="{html.escape(translated_title)}" data-url="{item_id}" data-date="{html.escape(target_date)}">
       <div class="topline">
         <span class="score">重要度 {score}</span>
         <span class="recommend">{html.escape(recommendation)}</span>
+        <button class="bookmark-btn" type="button" data-bookmark-toggle>☆ 保存</button>
       </div>
       <h3>{html.escape(translated_title)}</h3>
-      <p class="meta">{html.escape(source_name)} | {html.escape(published_at)}</p>
+      <p class="meta">{html.escape(source_name)} | {html.escape(published_at)} | {html.escape(topic_tags)}</p>
       <p class="summary">{html.escape(translated_summary)}</p>
-      <p class="meta">原題: {html.escape(original_title)}</p>
       <p class="linkline"><a href="{html.escape(url)}" target="_blank" rel="noreferrer">記事を開く</a></p>
     </article>
     """.strip()
 
 
+def build_bookmark_script() -> str:
+    return """
+<script>
+const BOOKMARK_KEY = "daily-info-dashboard-bookmarks";
+
+function loadBookmarks() {
+  try {
+    return JSON.parse(localStorage.getItem(BOOKMARK_KEY) || "[]");
+  } catch (error) {
+    return [];
+  }
+}
+
+function saveBookmarks(bookmarks) {
+  localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+}
+
+function isBookmarked(url, bookmarks) {
+  return bookmarks.some((item) => item.url === url);
+}
+
+function renderBookmarkList(bookmarks) {
+  const container = document.querySelector("[data-bookmark-list]");
+  if (!container) return;
+
+  if (bookmarks.length === 0) {
+    container.innerHTML = "<p class=\\"bookmark-empty\\">保存した記事はまだありません。</p>";
+    return;
+  }
+
+  const sorted = [...bookmarks].sort((a, b) => (a.savedAt < b.savedAt ? 1 : -1));
+  container.innerHTML = sorted.map((item) => `
+    <a class="bookmark-item" href="${item.pageUrl}#bookmark-${encodeURIComponent(item.url)}">
+      <strong>${item.title}</strong>
+      <span>${item.date}</span>
+    </a>
+  `).join("");
+}
+
+function syncButtons(bookmarks) {
+  document.querySelectorAll("[data-bookmark-toggle]").forEach((button) => {
+    const card = button.closest("[data-bookmark-id]");
+    if (!card) return;
+    const url = card.dataset.bookmarkId;
+    const active = isBookmarked(url, bookmarks);
+    button.textContent = active ? "★ 保存済み" : "☆ 保存";
+    button.classList.toggle("active", active);
+    card.id = `bookmark-${encodeURIComponent(url)}`;
+  });
+}
+
+function toggleBookmark(button) {
+  const card = button.closest("[data-bookmark-id]");
+  if (!card) return;
+
+  const url = card.dataset.bookmarkId;
+  const title = card.dataset.title;
+  const date = card.dataset.date;
+  let bookmarks = loadBookmarks();
+
+  if (isBookmarked(url, bookmarks)) {
+    bookmarks = bookmarks.filter((item) => item.url !== url);
+  } else {
+    bookmarks.push({
+      url,
+      title,
+      date,
+      pageUrl: window.location.pathname,
+      savedAt: new Date().toISOString()
+    });
+  }
+
+  saveBookmarks(bookmarks);
+  syncButtons(bookmarks);
+  renderBookmarkList(bookmarks);
+}
+
+document.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-bookmark-toggle]");
+  if (!button) return;
+  toggleBookmark(button);
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const bookmarks = loadBookmarks();
+  syncButtons(bookmarks);
+  renderBookmarkList(bookmarks);
+});
+</script>
+"""
+
+
 def build_html(
     generated_at: str,
+    target_date: str,
     ranked_items: list[dict[str, Any]],
     translator: GoogleTranslator | None,
-    title_cache: dict[str, str],
-    summary_cache: dict[str, str],
+    text_cache: dict[str, str],
 ) -> str:
     top_global_items = ranked_items[:TOP_GLOBAL]
     grouped = group_by_primary_topic(ranked_items)
 
     sections: list[str] = []
     top_cards = "\n".join(
-        render_item_html(item, translator, title_cache, summary_cache)
+        render_item_html(item, translator, text_cache, target_date)
         for item in top_global_items
     )
     sections.append(f"<section><h2>全体トップ5</h2><div class=\"cards\">{top_cards}</div></section>")
 
     for topic, topic_items in grouped.items():
         cards = "\n".join(
-            render_item_html(item, translator, title_cache, summary_cache)
+            render_item_html(item, translator, text_cache, target_date)
             for item in topic_items[:TOP_PER_TOPIC]
         )
         sections.append(
@@ -306,7 +374,7 @@ def build_html(
         )
 
     body_sections = "\n".join(sections)
-    title = f"Daily Info Dashboard {generated_at}"
+    title = f"Daily Info Dashboard {target_date}"
 
     return f"""<!doctype html>
 <html lang="ja">
@@ -324,7 +392,7 @@ def build_html(
       --accent: #a64b2a;
       --accent-soft: #f4d7c8;
       --line: #eadfce;
-      --shadow: 0 12px 30px rgba(73, 41, 19, 0.08);
+      --shadow: 0 10px 24px rgba(73, 41, 19, 0.08);
     }}
     * {{ box-sizing: border-box; }}
     body {{
@@ -338,50 +406,54 @@ def build_html(
     .wrap {{
       max-width: 760px;
       margin: 0 auto;
-      padding: 24px 16px 40px;
+      padding: 18px 14px 32px;
+    }}
+    header, .bookmark-panel {{
+      background: rgba(255, 250, 242, 0.88);
+      border: 1px solid rgba(234, 223, 206, 0.8);
+      border-radius: 20px;
+      padding: 16px;
+      box-shadow: var(--shadow);
     }}
     header {{
-      background: rgba(255, 250, 242, 0.82);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(234, 223, 206, 0.8);
-      border-radius: 24px;
-      padding: 20px;
-      box-shadow: var(--shadow);
-      margin-bottom: 20px;
+      margin-bottom: 14px;
+    }}
+    .bookmark-panel {{
+      margin-bottom: 10px;
     }}
     h1, h2, h3 {{
-      line-height: 1.35;
+      line-height: 1.3;
       margin: 0;
     }}
     h1 {{
-      font-size: 1.8rem;
-      margin-bottom: 8px;
+      font-size: 1.55rem;
+      margin-bottom: 6px;
     }}
     h2 {{
-      font-size: 1.2rem;
-      margin: 24px 0 12px;
+      font-size: 1.08rem;
+      margin: 18px 0 10px;
     }}
     h3 {{
-      font-size: 1.05rem;
-      margin-bottom: 10px;
+      font-size: 1rem;
+      margin-bottom: 6px;
     }}
     p {{
-      margin: 0 0 10px;
-      line-height: 1.7;
+      margin: 0 0 8px;
+      line-height: 1.55;
     }}
     .lead, .meta {{
       color: var(--muted);
-      font-size: 0.95rem;
+      font-size: 0.9rem;
     }}
     .cards {{
       display: grid;
-      gap: 14px;
+      gap: 10px;
     }}
     .card {{
       background: var(--panel);
       border: 1px solid var(--line);
-      border-radius: 20px;
-      padding: 14px 14px 12px;
+      border-radius: 16px;
+      padding: 12px;
       box-shadow: var(--shadow);
     }}
     .topline {{
@@ -389,46 +461,80 @@ def build_html(
       gap: 8px;
       align-items: center;
       flex-wrap: wrap;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }}
     .score {{
       display: inline-block;
-      padding: 5px 9px;
+      padding: 4px 8px;
       border-radius: 999px;
       background: var(--accent-soft);
       color: var(--accent);
       font-weight: 700;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
     }}
     .recommend {{
       color: var(--accent);
-      font-size: 0.84rem;
+      font-size: 0.8rem;
       font-weight: 700;
     }}
+    .bookmark-btn {{
+      margin-left: auto;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--text);
+      border-radius: 999px;
+      padding: 5px 9px;
+      font-size: 0.78rem;
+      cursor: pointer;
+    }}
+    .bookmark-btn.active {{
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }}
     .summary {{
-      font-size: 0.95rem;
-      margin-bottom: 8px;
+      font-size: 0.92rem;
+      margin-bottom: 6px;
     }}
     .linkline {{
       margin-bottom: 0;
+      font-size: 0.9rem;
     }}
     a {{
       color: var(--accent);
       font-weight: 700;
       text-decoration: none;
     }}
-    .footer-links {{
-      margin-top: 28px;
-      color: var(--muted);
-      font-size: 0.92rem;
+    .bookmark-list {{
+      display: grid;
+      gap: 8px;
+      margin-top: 10px;
     }}
-    @media (min-width: 720px) {{
-      .wrap {{
-        padding-top: 32px;
-      }}
-      .cards {{
-        gap: 16px;
-      }}
+    .bookmark-item {{
+      display: block;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px;
+      box-shadow: var(--shadow);
+    }}
+    .bookmark-item span {{
+      display: block;
+      color: var(--muted);
+      font-size: 0.84rem;
+      margin-top: 2px;
+    }}
+    .bookmark-empty {{
+      color: var(--muted);
+      margin-top: 8px;
+    }}
+    .footer-links {{
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 0.9rem;
     }}
   </style>
 </head>
@@ -436,12 +542,22 @@ def build_html(
   <main class="wrap">
     <header>
       <h1>Daily Info Dashboard</h1>
+      <p class="lead">対象日: {html.escape(target_date)}</p>
       <p class="lead">更新日: {html.escape(generated_at)}</p>
-      <p class="lead">業務活用や生活改善につながりやすい記事を、指定キーワードに基づいて重要度順に並べています。</p>
+      <p class="lead">昨日更新された記事から、業務活用や生活改善につながりやすいものを重要度順に並べています。</p>
     </header>
+    <section class="bookmark-panel">
+      <h2>ブックマーク</h2>
+      <p class="lead">気になった記事を保存して、あとでスマホから見返せます。</p>
+      <div class="bookmark-list" data-bookmark-list></div>
+    </section>
     {body_sections}
-    <p class="footer-links"><a href="../index.html">日付一覧へ</a></p>
+    <div class="footer-links">
+      <a href="../archive/index.html">日付一覧へ</a>
+      <a href="../index.html">最新ページへ</a>
+    </div>
   </main>
+  {build_bookmark_script()}
 </body>
 </html>
 """
@@ -449,7 +565,7 @@ def build_html(
 
 def build_archive_index(dates: list[str]) -> str:
     links = "\n".join(
-        f'<li><a href="./{html.escape(day)}/index.html">{html.escape(day)} の記事ページ</a></li>'
+        f'<li><a href="../{html.escape(day)}/index.html">{html.escape(day)} の記事ページ</a></li>'
         for day in sorted(dates, reverse=True)
     )
 
@@ -496,6 +612,7 @@ def build_archive_index(dates: list[str]) -> str:
     <div class="panel">
       <h1>Daily Info Dashboard</h1>
       <p>日付ごとの記事ページ一覧です。</p>
+      <p><a href="../index.html">最新ページを見る</a></p>
       <ul>
         {links}
       </ul>
@@ -506,33 +623,54 @@ def build_archive_index(dates: list[str]) -> str:
 """
 
 
+def build_latest_index(latest_date: str) -> str:
+    return f"""<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=./{html.escape(latest_date)}/index.html">
+  <title>Daily Info Dashboard</title>
+</head>
+<body>
+  <p><a href="./{html.escape(latest_date)}/index.html">最新ページへ移動</a></p>
+</body>
+</html>
+"""
+
+
 def write_site_pages(
     generated_at: str,
+    target_date: str,
     ranked_items: list[dict[str, Any]],
     translator: GoogleTranslator | None,
-    title_cache: dict[str, str],
-    summary_cache: dict[str, str],
+    text_cache: dict[str, str],
 ) -> None:
-    day_dir = SITE_DIR / generated_at
-    day_dir.mkdir(parents=True, exist_ok=True)
+    SITE_DIR.mkdir(parents=True, exist_ok=True)
 
-    html_text = build_html(generated_at, ranked_items, translator, title_cache, summary_cache)
+    day_dir = SITE_DIR / target_date
+    day_dir.mkdir(parents=True, exist_ok=True)
+    html_text = build_html(generated_at, target_date, ranked_items, translator, text_cache)
     (day_dir / "index.html").write_text(html_text, encoding="utf-8")
 
+    archive_dir = SITE_DIR / "archive"
+    archive_dir.mkdir(parents=True, exist_ok=True)
+
     existing_dates = [
-        path.name for path in SITE_DIR.iterdir() if path.is_dir() and re.fullmatch(r"\d{4}-\d{2}-\d{2}", path.name)
+        path.name
+        for path in SITE_DIR.iterdir()
+        if path.is_dir() and re.fullmatch(r"\d{4}-\d{2}-\d{2}", path.name)
     ]
-    archive_html = build_archive_index(existing_dates)
-    SITE_DIR.mkdir(parents=True, exist_ok=True)
-    (SITE_DIR / "index.html").write_text(archive_html, encoding="utf-8")
+    (archive_dir / "index.html").write_text(build_archive_index(existing_dates), encoding="utf-8")
+    (SITE_DIR / "index.html").write_text(build_latest_index(target_date), encoding="utf-8")
+    (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
 
 
-def build_markdown(generated_at: str, items: list[dict[str, Any]]) -> str:
-    ranked_items = select_top_items(items)
+def build_markdown(generated_at: str, target_date: str, items: list[dict[str, Any]]) -> str:
+    ranked_items = select_top_items(items, target_date)
     top_global_items = ranked_items[:TOP_GLOBAL]
     grouped = group_by_primary_topic(ranked_items)
-    title_cache: dict[str, str] = {}
-    summary_cache: dict[str, str] = {}
+    text_cache: dict[str, str] = {}
 
     try:
         translator: GoogleTranslator | None = GoogleTranslator(source="auto", target="ja")
@@ -541,9 +679,10 @@ def build_markdown(generated_at: str, items: list[dict[str, Any]]) -> str:
 
     lines: list[str] = [
         "# Daily Info Dashboard",
+        f"対象日: {target_date}",
         f"更新日: {generated_at}",
         "",
-        "業務活用や生活改善につながりやすい記事を、指定キーワードに基づいて重要度順に並べています。",
+        "昨日更新された記事から、業務活用や生活改善につながりやすいものを重要度順に並べています。",
         "",
     ]
 
@@ -554,23 +693,23 @@ def build_markdown(generated_at: str, items: list[dict[str, Any]]) -> str:
                 "",
             ]
         )
+        write_site_pages(generated_at, target_date, ranked_items, translator, text_cache)
         return "\n".join(lines)
 
     lines.append("## 全体トップ5")
     lines.append("")
 
     for item in top_global_items:
-        lines.extend(format_item_lines(item, translator, title_cache, summary_cache))
+        lines.extend(format_item_lines(item, translator, text_cache))
 
     for topic, topic_items in grouped.items():
         lines.append(f"## {topic}")
         lines.append("")
 
         for item in topic_items[:TOP_PER_TOPIC]:
-            lines.extend(format_item_lines(item, translator, title_cache, summary_cache))
+            lines.extend(format_item_lines(item, translator, text_cache))
 
-    write_site_pages(generated_at, ranked_items, translator, title_cache, summary_cache)
-
+    write_site_pages(generated_at, target_date, ranked_items, translator, text_cache)
     return "\n".join(lines)
 
 
@@ -578,8 +717,9 @@ def main() -> None:
     latest_json = find_latest_json(RAW_DIR)
     payload = load_payload(latest_json)
     generated_at = payload.get("generated_at", "")
+    target_date = payload.get("target_date") or payload.get("generated_at", "")
     items = payload.get("items", [])
-    markdown = build_markdown(generated_at, items)
+    markdown = build_markdown(generated_at, target_date, items)
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(markdown, encoding="utf-8")
@@ -589,3 +729,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
