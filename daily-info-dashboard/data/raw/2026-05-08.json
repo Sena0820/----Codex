@@ -1,0 +1,2851 @@
+{
+  "generated_at": "2026-05-08",
+  "topics": [
+    {
+      "name": "Codex",
+      "keywords": [
+        "codex",
+        "openai codex",
+        "coding agent",
+        "ai coding",
+        "code generation",
+        "developer workflow",
+        "software engineering agent",
+        "llm coding"
+      ]
+    },
+    {
+      "name": "Snowflake",
+      "keywords": [
+        "snowflake",
+        "snowpark",
+        "cortex analyst",
+        "snowpipe",
+        "data warehouse",
+        "data cloud",
+        "sql analytics",
+        "data engineering",
+        "semantic layer"
+      ]
+    },
+    {
+      "name": "GTM",
+      "keywords": [
+        "gtm",
+        "google tag manager",
+        "tag manager",
+        "server-side tagging",
+        "consent mode",
+        "tagging",
+        "conversion tracking",
+        "web tracking"
+      ]
+    },
+    {
+      "name": "GA4",
+      "keywords": [
+        "ga4",
+        "google analytics",
+        "google analytics 4",
+        "event tracking",
+        "measurement",
+        "attribution",
+        "audience",
+        "reporting",
+        "analytics dashboard"
+      ]
+    },
+    {
+      "name": "NotebookLM / Gemini",
+      "keywords": [
+        "notebooklm",
+        "gemini",
+        "google gemini",
+        "gemini workspace",
+        "ai assistant",
+        "research assistant",
+        "document analysis",
+        "multimodal ai"
+      ]
+    },
+    {
+      "name": "Business Skills",
+      "keywords": [
+        "task management",
+        "project management",
+        "meeting",
+        "collaboration",
+        "communication",
+        "stakeholder",
+        "documentation",
+        "presentation",
+        "productivity",
+        "teamwork",
+        "facilitation",
+        "note taking",
+        "writing",
+        "workflow",
+        "remote work",
+        "knowledge work",
+        "decision making",
+        "problem solving",
+        "meeting notes",
+        "meeting agenda",
+        "note taking",
+        "time management",
+        "prioritization",
+        "presentation",
+        "slide design",
+        "storytelling",
+        "business writing",
+        "stakeholder management",
+        "knowledge management",
+        "team productivity"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "OpenAI News",
+      "category": "AI",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "OpenAI Blog",
+      "category": "AI",
+      "url": "https://openai.com/blog/rss.xml"
+    },
+    {
+      "name": "Google Blog",
+      "category": "AI",
+      "url": "https://blog.google/rss/"
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "category": "AI",
+      "url": "https://deepmind.google/blog/rss.xml"
+    },
+    {
+      "name": "Google Cloud Blog",
+      "category": "Data Analytics",
+      "url": "https://cloudblog.withgoogle.com/rss/"
+    },
+    {
+      "name": "Snowflake Blog",
+      "category": "Data Analytics",
+      "url": "https://www.snowflake.com/blog/feed/"
+    },
+    {
+      "name": "dbt Developer Blog",
+      "category": "Data Analytics",
+      "url": "https://docs.getdbt.com/blog/rss.xml"
+    },
+    {
+      "name": "Databricks Blog",
+      "category": "Data Analytics",
+      "url": "https://www.databricks.com/blog/rss.xml"
+    },
+    {
+      "name": "AWS Big Data Blog",
+      "category": "Data Analytics",
+      "url": "https://aws.amazon.com/blogs/big-data/feed/"
+    },
+    {
+      "name": "Search Engine Journal",
+      "category": "Marketing Analytics",
+      "url": "https://www.searchenginejournal.com/feed/"
+    },
+    {
+      "name": "MarTech",
+      "category": "Marketing Analytics",
+      "url": "https://martech.org/feed/"
+    },
+    {
+      "name": "Analytics Mania",
+      "category": "Marketing Analytics",
+      "url": "https://www.analyticsmania.com/feed/"
+    },
+    {
+      "name": "MeasureSchool",
+      "category": "Marketing Analytics",
+      "url": "https://measureschool.com/feed/"
+    },
+    {
+      "name": "InfoQ",
+      "category": "Engineering",
+      "url": "https://feed.infoq.com/"
+    },
+    {
+      "name": "GitHub Blog",
+      "category": "Engineering",
+      "url": "https://github.blog/feed/"
+    },
+    {
+      "name": "Microsoft DevBlogs",
+      "category": "Engineering",
+      "url": "https://devblogs.microsoft.com/feed/"
+    },
+    {
+      "name": "Atlassian Blog",
+      "category": "Business Skills",
+      "url": "https://www.atlassian.com/blog/feed"
+    },
+    {
+      "name": "Asana Blog",
+      "category": "Business Skills",
+      "url": "https://asana.com/resources/rss"
+    },
+    {
+      "name": "Harvard Business Review",
+      "category": "Business Skills",
+      "url": "https://hbr.org/feed"
+    },
+    {
+      "name": "Zapier Blog",
+      "category": "Business Skills",
+      "url": "https://zapier.com/blog/rss/"
+    },
+    {
+      "name": "Notion Blog",
+      "category": "Business Skills",
+      "url": "https://www.notion.so/blog/rss.xml"
+    }
+  ],
+  "item_count": 237,
+  "items": [
+    {
+      "title": "Simplex rethinks software development with Codex",
+      "url": "https://openai.com/index/simplex",
+      "published_at": "2026-05-07",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+      "url": "https://openai.com/index/singular-bank",
+      "published_at": "2026-05-06",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Uber uses OpenAI to help people earn smarter and book faster",
+      "url": "https://openai.com/index/uber",
+      "published_at": "2026-05-06",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "How frontier firms are pulling ahead",
+      "url": "https://openai.com/index/introducing-b2b-signals",
+      "published_at": "2026-05-06",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "New ways to buy ChatGPT ads",
+      "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+      "published_at": "2026-05-05",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "published_at": "2026-05-04",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Our commitment to community safety",
+      "url": "https://openai.com/index/our-commitment-to-community-safety",
+      "published_at": "2026-04-28",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "url": "https://openai.com/index/openai-on-aws",
+      "published_at": "2026-04-28",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "An open-source spec for orchestration: Symphony",
+      "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
+      "published_at": "2026-04-27",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Choco automates food distribution with AI agents",
+      "url": "https://openai.com/index/choco",
+      "published_at": "2026-04-27",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "How to get started with Codex",
+      "url": "https://openai.com/academy/codex-how-to-start",
+      "published_at": "2026-04-23",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Codex settings",
+      "url": "https://openai.com/academy/codex-settings",
+      "published_at": "2026-04-23",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Working with Codex",
+      "url": "https://openai.com/academy/working-with-codex",
+      "published_at": "2026-04-23",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Plugins and skills",
+      "url": "https://openai.com/academy/codex-plugins-and-skills",
+      "published_at": "2026-04-23",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Top 10 uses for Codex at work",
+      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "published_at": "2026-04-23",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Automations",
+      "url": "https://openai.com/academy/codex-automations",
+      "published_at": "2026-04-23",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "What is Codex?",
+      "url": "https://openai.com/academy/what-is-codex",
+      "published_at": "2026-04-23",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Making ChatGPT better for clinicians",
+      "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "published_at": "2026-04-22",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Introducing workspace agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "published_at": "2026-04-22",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "published_at": "2026-04-22",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Workspace agents",
+      "url": "https://openai.com/academy/workspace-agents",
+      "published_at": "2026-04-22",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Scaling Codex to enterprises worldwide",
+      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+      "published_at": "2026-04-21",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "OpenAI helps Hyatt advance AI among colleagues",
+      "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+      "published_at": "2026-04-20",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Codex for (almost) everything",
+      "url": "https://openai.com/index/codex-for-almost-everything",
+      "published_at": "2026-04-16",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Introducing GPT-Rosalind for life sciences research",
+      "url": "https://openai.com/index/introducing-gpt-rosalind",
+      "published_at": "2026-04-16",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+      "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+      "published_at": "2026-04-13",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Healthcare",
+      "url": "https://openai.com/academy/healthcare",
+      "published_at": "2026-04-10",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "ChatGPT for customer success teams",
+      "url": "https://openai.com/academy/customer-success",
+      "published_at": "2026-04-10",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "ChatGPT for operations teams",
+      "url": "https://openai.com/academy/operations",
+      "published_at": "2026-04-10",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Using custom GPTs",
+      "url": "https://openai.com/academy/custom-gpts",
+      "published_at": "2026-04-10",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.",
+      "matched_topics": [
+        "NotebookLM / Gemini",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Using skills",
+      "url": "https://openai.com/academy/skills",
+      "published_at": "2026-04-10",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "ChatGPT for finance teams",
+      "url": "https://openai.com/academy/finance",
+      "published_at": "2026-04-10",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "Writing with ChatGPT",
+      "url": "https://openai.com/academy/writing",
+      "published_at": "2026-04-10",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Applications of AI at OpenAI",
+      "url": "https://openai.com/academy/applications-of-ai",
+      "published_at": "2026-04-10",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+      "url": "https://openai.com/index/cyberagent",
+      "published_at": "2026-04-09",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "The next phase of enterprise AI",
+      "url": "https://openai.com/index/next-phase-of-enterprise-ai",
+      "published_at": "2026-04-08",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Introducing the Child Safety Blueprint",
+      "url": "https://openai.com/index/introducing-child-safety-blueprint",
+      "published_at": "2026-04-08",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Codex now offers more flexible pricing for teams",
+      "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
+      "published_at": "2026-04-02",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Gradient Labs gives every bank customer an AI account manager",
+      "url": "https://openai.com/index/gradient-labs",
+      "published_at": "2026-04-01",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Accelerating the next phase of AI",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "published_at": "2026-03-31",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "STADLER reshapes knowledge work at a 230-year-old company",
+      "url": "https://openai.com/index/stadler",
+      "published_at": "2026-03-27",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "How we monitor internal coding agents for misalignment",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "published_at": "2026-03-19",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "OpenAI to acquire Astral",
+      "url": "https://openai.com/index/openai-to-acquire-astral",
+      "published_at": "2026-03-19",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Accelerates Codex growth to power the next generation of Python developer tools",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Why Codex Security Doesn’t Include a SAST Report",
+      "url": "https://openai.com/index/why-codex-security-doesnt-include-sast",
+      "published_at": "2026-03-16",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false positives.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Designing AI agents to resist prompt injection",
+      "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "published_at": "2026-03-11",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "url": "https://openai.com/index/rakuten",
+      "published_at": "2026-03-11",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Codex Security: now in research preview",
+      "url": "https://openai.com/index/codex-security-now-in-research-preview",
+      "published_at": "2026-03-06",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "How Balyasny Asset Management built an AI research engine",
+      "url": "https://openai.com/index/balyasny-asset-management",
+      "published_at": "2026-03-06",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "By combining rigorous model evaluation, full-platform use of OpenAI, and agent workflows, Balyasny is reinventing investment research.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Ensuring AI use in education leads to opportunity",
+      "url": "https://openai.com/index/ai-education-opportunity",
+      "published_at": "2026-03-05",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "Understanding AI and learning outcomes",
+      "url": "https://openai.com/index/understanding-ai-and-learning-outcomes",
+      "published_at": "2026-03-04",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI introduces the Learning Outcomes Measurement Suite to assess AI’s impact on student learning across diverse educational environments over time.",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "How Axios uses AI to help deliver high-impact local journalism",
+      "url": "https://openai.com/index/axios-allison-murphy",
+      "published_at": "2026-03-04",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Axios COO Allison Murphy explains how the company uses AI to support local reporters, streamline newsroom workflows, and deliver high-impact local journalism at scale.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+      "published_at": "2026-02-27",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Joint Statement from OpenAI and Microsoft",
+      "url": "https://openai.com/index/continuing-microsoft-partnership",
+      "published_at": "2026-02-27",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
+      "url": "https://openai.com/index/pacific-northwest-national-laboratory",
+      "published_at": "2026-02-26",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA drafting time by up to 15% and modernize infrastructure reviews.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
+      "url": "https://openai.com/index/figma-partnership",
+      "published_at": "2026-02-26",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Beyond rate limits: scaling access to Codex and Sora",
+      "url": "https://openai.com/index/beyond-rate-limits",
+      "published_at": "2026-02-13",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Introducing GPT-5.3-Codex-Spark",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+      "published_at": "2026-02-12",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Introducing GPT-5.3-Codex-Spark—our first real-time coding model. 15x faster generation, 128k context, now in research preview for ChatGPT Pro users.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Harness engineering: leveraging Codex in an agent-first world",
+      "url": "https://openai.com/index/harness-engineering",
+      "published_at": "2026-02-11",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "By Ryan Lopopolo, Member of the Technical Staff",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "GPT-5.3-Codex System Card",
+      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "published_at": "2026-02-05",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "GPT‑5.3-Codex is the most capable agentic coding model to date, combining the frontier coding performance of GPT‑5.2-Codex with the reasoning and professional knowledge capabilities of GPT‑5.2.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Introducing GPT-5.3-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+      "published_at": "2026-02-05",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "GPT-5.3-Codex is a Codex-native agent that pairs frontier coding performance with general reasoning to support long-horizon, real-world technical work.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Unlocking the Codex harness: how we built the App Server",
+      "url": "https://openai.com/index/unlocking-the-codex-harness",
+      "published_at": "2026-02-04",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diffs.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data",
+      "url": "https://openai.com/index/snowflake-partnership",
+      "published_at": "2026-02-02",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI and Snowflake partner in a $200M agreement to bring frontier intelligence into enterprise data, enabling AI agents and insights directly in Snowflake.",
+      "matched_topics": [
+        "Snowflake"
+      ]
+    },
+    {
+      "title": "Introducing the Codex app",
+      "url": "https://openai.com/index/introducing-the-codex-app",
+      "published_at": "2026-02-02",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Introducing the Codex app for macOS—a command center for AI coding and software development with multiple agents, parallel workflows, and long-running tasks.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Inside OpenAI’s in-house data agent",
+      "url": "https://openai.com/index/inside-our-in-house-data-agent",
+      "published_at": "2026-01-29",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Unrolling the Codex agent loop",
+      "url": "https://openai.com/index/unrolling-the-codex-agent-loop",
+      "published_at": "2026-01-23",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "How countries can end the capability overhang",
+      "url": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
+      "published_at": "2026-01-21",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Cisco and OpenAI redefine enterprise engineering with AI agents",
+      "url": "https://openai.com/index/cisco",
+      "published_at": "2026-01-20",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Cisco and OpenAI redefine enterprise engineering with Codex, an AI software agent embedded in workflows to speed builds, automate defect fixes, and enable AI-native development.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "ServiceNow powers actionable enterprise AI with OpenAI",
+      "url": "https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai",
+      "published_at": "2026-01-20",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "ServiceNow expands access to OpenAI frontier models to power AI-driven enterprise workflows, summarization, search, and voice across the ServiceNow Platform.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Zenken boosts a lean sales team with ChatGPT Enterprise",
+      "url": "https://openai.com/index/zenken",
+      "published_at": "2026-01-13",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "By rolling out ChatGPT Enterprise company-wide, Zenken has boosted sales performance, cut preparation time, and increased proposal success rates. AI-supported workflows are helping a lean team deliver more personalized, effective customer engagement.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Datadog uses Codex for system-level code review",
+      "url": "https://openai.com/index/datadog",
+      "published_at": "2026-01-09",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI and Datadog brand graphic with the OpenAI wordmark on the left, the Datadog logo on the right, and a central abstract brown fur-like texture panel on a white background.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "OpenAI for Healthcare",
+      "url": "https://openai.com/index/openai-for-healthcare",
+      "published_at": "2026-01-08",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI for Healthcare enables secure, enterprise-grade AI that supports HIPAA compliance—reducing administrative burden and supporting clinical workflows.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Netomi’s lessons for scaling agentic systems into the enterprise",
+      "url": "https://openai.com/index/netomi",
+      "published_at": "2026-01-08",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "How Netomi scales enterprise AI agents using GPT-4.1 and GPT-5.2—combining concurrency, governance, and multi-step reasoning for reliable production workflows.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "url": "https://openai.com/index/us-department-of-energy-collaboration",
+      "published_at": "2025-12-18",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agreement builds on ongoing work with national laboratories and helps establish a framework for applying AI to high-impact research across the DOE ecosystem.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "published_at": "2025-12-18",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex-system-card",
+      "published_at": "2025-12-18",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Introducing OpenAI Academy for News Organizations",
+      "url": "https://openai.com/index/openai-academy-for-news-organizations",
+      "published_at": "2025-12-17",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI is launching the OpenAI Academy for News Organizations, a new learning hub built with the American Journalism Project and The Lenfest Institute to help newsrooms use AI effectively. The Academy offers training, practical use cases, and responsible-use guidance to support journalists, editors, and publishers as they adopt AI in their reporting and operations.",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "The state of enterprise AI",
+      "url": "https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-2025-report",
+      "published_at": "2025-12-17",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "A data-driven look at enterprise AI adoption, showing how organizations move from experimentation to real productivity gains and new capabilities.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+      "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
+      "published_at": "2025-12-12",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Introducing GPT-5.2",
+      "url": "https://openai.com/index/introducing-gpt-5-2",
+      "published_at": "2025-12-11",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and the OpenAI API to power faster, more reliable agentic workflows.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+      "url": "https://openai.com/index/deutsche-telekom-collaboration",
+      "published_at": "2025-12-09",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche Telekom improve workflows and accelerate innovation.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "The state of enterprise AI",
+      "url": "https://openai.com/index/the-state-of-enterprise-ai-2025-report",
+      "published_at": "2025-12-08",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Key findings from OpenAI’s enterprise data show accelerating AI adoption, deeper integration, and measurable productivity gains across industries in 2025.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Inside Mirakl's agentic commerce vision",
+      "url": "https://openai.com/index/mirakl",
+      "published_at": "2025-12-01",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "How evals drive the next chapter in AI for businesses",
+      "url": "https://openai.com/index/evals-drive-next-chapter-of-ai",
+      "published_at": "2025-11-19",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how evals help businesses define, measure, and improve AI performance—reducing risk, boosting productivity, and driving strategic advantage.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "OpenAI and Target team up on new AI-powered experiences",
+      "url": "https://openai.com/index/target-partnership",
+      "published_at": "2025-11-19",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI and Target are partnering to bring a new Target app to ChatGPT, offering personalized shopping and faster checkout. Target will also expand its use of ChatGPT Enterprise to boost productivity and guest experiences.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "GPT-5.1-Codex-Max System Card",
+      "url": "https://openai.com/index/gpt-5-1-codex-max-system-card",
+      "published_at": "2025-11-19",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "This system card outlines the comprehensive safety measures implemented for GPT‑5.1-CodexMax. It details both model-level mitigations, such as specialized safety training for harmful tasks and prompt injections, and product-level mitigations like agent sandboxing and configurable network access.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "How Scania accelerates work with AI across its global workforce",
+      "url": "https://openai.com/index/scania",
+      "published_at": "2025-11-19",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Global manufacturer Scania is scaling AI with ChatGPT Enterprise. With team-based onboarding and strong guardrails, AI is boosting productivity, quality, and innovation.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Building more with GPT-5.1-Codex-Max",
+      "url": "https://openai.com/index/gpt-5-1-codex-max",
+      "published_at": "2025-11-19",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Introducing GPT-5.1-Codex-Max, a faster, more intelligent agentic coding model for Codex. The model is designed for long-running, project-scale work with enhanced reasoning and token efficiency.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Introducing OpenAI for Ireland",
+      "url": "https://openai.com/index/openai-for-ireland",
+      "published_at": "2025-11-14",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI launches OpenAI for Ireland, partnering with the Irish Government, Dogpatch Labs and Patch to help SMEs, founders and young builders use AI to innovate, boost productivity and build the next generation of Irish tech startups.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Notion’s GPT‑5 rebuild unlocks autonomous AI workflows",
+      "url": "https://openai.com/index/notion",
+      "published_at": "2025-11-07",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Notion rebuilt its AI architecture with GPT-5 to create agents that reason, act, and adapt across workflows, unlocking faster and more flexible productivity in Notion 3.0.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Introducing the Teen Safety Blueprint",
+      "url": "https://openai.com/index/introducing-the-teen-safety-blueprint",
+      "published_at": "2025-11-06",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Discover OpenAI’s Teen Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Seizing the AI opportunity",
+      "url": "https://openai.com/global-affairs/seizing-the-ai-opportunity",
+      "published_at": "2025-10-27",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Meeting the demands of the Intelligence Age will require strategic investment in energy and infrastructure. OpenAI’s submission to the White House details how expanding capacity and workforce readiness can sustain U.S. leadership in AI and economic growth.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Steuerrecht.com delivers client-ready legal analysis with ChatGPT",
+      "url": "https://openai.com/index/steuerrecht",
+      "published_at": "2025-10-27",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Steuerrecht.com uses ChatGPT Business to streamline legal workflows, automate tax research, and deliver faster, client-ready analysis for law firms.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Consensus accelerates research with GPT-5 and Responses API",
+      "url": "https://openai.com/index/consensus",
+      "published_at": "2025-10-23",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Consensus uses GPT-5 and OpenAI’s Responses API to power a multi-agent research assistant that reads, analyzes, and synthesizes evidence in minutes—helping over 8 million researchers accelerate scientific discovery.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Argentina’s AI opportunity",
+      "url": "https://openai.com/global-affairs/argentinas-ai-opportunity",
+      "published_at": "2025-10-14",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI and Sur Energy are exploring Argentina’s first Stargate project—an AI and clean energy collaboration that could make Argentina a Latin American leader in artificial intelligence, sustainable infrastructure, and digital innovation.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators",
+      "url": "https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration",
+      "published_at": "2025-10-13",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI and Broadcom announce a multi-year partnership to deploy 10 gigawatts of OpenAI-designed AI accelerators, co-developing next-generation systems and Ethernet solutions to power scalable, energy-efficient AI infrastructure by 2029.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "HiBob turns 2,500 GPTs into product and team growth",
+      "url": "https://openai.com/index/hibob",
+      "published_at": "2025-10-08",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Discover how HiBob uses ChatGPT Enterprise and custom GPTs to scale AI adoption, boost revenue, streamline HR workflows, and deliver AI-powered features in the Bob platform.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Codex is now generally available",
+      "url": "https://openai.com/index/codex-now-generally-available",
+      "published_at": "2025-10-06",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI Codex is now generally available with powerful new features for developers: a Slack integration, Codex SDK, and admin tools like usage dashboards and workspace management—making Codex easier to use and manage at scale.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "With GPT-5, Wrtn builds lifestyle AI for millions in Korea",
+      "url": "https://openai.com/index/wrtn",
+      "published_at": "2025-10-02",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Wrtn scaled AI apps to 6.5M users in Korea with GPT-5, creating ‘Lifestyle AI’ that blends productivity, creativity, and learning—now expanding across East Asia.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "OpenAI announces strategic collaboration with Japan’s Digital Agency",
+      "url": "https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency",
+      "published_at": "2025-10-02",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI and Japan’s Digital Agency partner to advance generative AI in public services, support international AI governance, and promote safe, trustworthy AI adoption worldwide.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Driving sales productivity and customer success at OpenAI",
+      "url": "https://openai.com/index/openai-gtm-assistant",
+      "published_at": "2025-09-29",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how OpenAI boosts sales productivity by automating prep, centralizing knowledge, and scaling top-selling practices.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Empowering teams to unlock insights faster at OpenAI",
+      "url": "https://openai.com/index/openai-research-assistant",
+      "published_at": "2025-09-29",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI’s research assistant helps teams analyze millions of support tickets, surface insights faster, and scale curiosity across the company.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Combating online child sexual exploitation & abuse",
+      "url": "https://openai.com/index/combating-online-child-sexual-exploitation-abuse",
+      "published_at": "2025-09-29",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Discover how OpenAI combats online child sexual exploitation and abuse with strict usage policies, advanced detection tools, and industry collaboration to block, report, and prevent AI misuse.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "ENEOS Materials brings ChatGPT Enterprise to manufacturing",
+      "url": "https://openai.com/index/eneos-materials",
+      "published_at": "2025-09-24",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "ENEOS Materials uses ChatGPT Enterprise to speed research, improve plant design safety, and cut HR analysis time by 90%, with 80% reporting better workflows.",
+      "matched_topics": [
+        "GA4",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Introducing upgrades to Codex",
+      "url": "https://openai.com/index/introducing-upgrades-to-codex",
+      "published_at": "2025-09-15",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Codex just got faster, more reliable, and better at real-time collaboration and tackling tasks independently anywhere you develop—whether via the terminal, IDE, web, or even your phone.",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Addendum to GPT-5 system card: GPT-5-Codex",
+      "url": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex",
+      "published_at": "2025-09-15",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "This addendum to the GPT-5 system card shares a new model: GPT-5-Codex, a version of GPT-5 further optimized for agentic coding in Codex. GPT-5-Codex adjusts its thinking effort more dynamically based on task complexity, responding quickly to simple conversational queries or small tasks, while independently working for longer on more complex tasks.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Vijaye Raji to become CTO of Applications with acquisition of Statsig",
+      "url": "https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig",
+      "published_at": "2025-09-02",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Vijaye Raji will step into a new role as CTO of Applications, reporting to CEO of Applications, Fidji Simo, following the acquisition of Statsig.",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "OpenAI and Anthropic share findings from a joint safety evaluation",
+      "url": "https://openai.com/index/openai-anthropic-safety-evaluation",
+      "published_at": "2025-08-27",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI and Anthropic share findings from a first-of-its-kind joint safety evaluation, testing each other’s models for misalignment, instruction following, hallucinations, jailbreaking, and more—highlighting progress, challenges, and the value of cross-lab collaboration.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Mixi reimagines communication with ChatGPT",
+      "url": "https://openai.com/index/mixi",
+      "published_at": "2025-08-20",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Discover how MIXI, a leader in digital entertainment and lifestyle services in Japan, uses ChatGPT Enterprise to transform productivity, boost AI adoption across teams, and create a secure environment for innovation.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "GPT-5 and the new era of work",
+      "url": "https://openai.com/index/gpt-5-new-era-of-work",
+      "published_at": "2025-08-07",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "GPT-5 is OpenAI’s most advanced model—transforming enterprise AI, automation, and workforce productivity in the new era of intelligent work.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Creative writing with GPT-5",
+      "url": "https://openai.com/index/gpt-5-creative-writing",
+      "published_at": "2025-08-07",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Learn how GPT-5 assists with creative writing.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Introducing GPT-5",
+      "url": "https://openai.com/index/introducing-gpt-5",
+      "published_at": "2025-08-07",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We are introducing GPT‑5, our best AI system yet. GPT‑5 is a significant leap in intelligence over all our previous models, featuring state-of-the-art performance across coding, math, writing, health, visual perception, and more.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Figma uses AI to transform digital design",
+      "url": "https://openai.com/index/figma-david-kossnick",
+      "published_at": "2025-08-01",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Discover how Figma is transforming digital design with AI. David Kossnick shares how tools like Figma Make empower teams to prototype, collaborate, and build with AI—reshaping workflows for designers, developers, and non-technical creators alike.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Model ML is helping financial firms rebuild with AI from the ground up",
+      "url": "https://openai.com/index/model-ml-chaz-englander",
+      "published_at": "2025-07-23",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "As part of our Executive Function series, Model ML CEO Chaz Englander discusses how AI-native infrastructure and autonomous agents are transforming financial services workflows.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "OpenAI’s new economic analysis",
+      "url": "https://openai.com/global-affairs/new-economic-analysis",
+      "published_at": "2025-07-22",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Analysis provides insights into ChatGPT’s impact on the economy. OpenAI also launches new research collaboration to study AI’s broader effects on the labor market and productivity.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "AI in Australia—OpenAI’s Economic Blueprint",
+      "url": "https://openai.com/global-affairs/openais-australia-economic-blueprint",
+      "published_at": "2025-06-30",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Today, OpenAI, in partnership with Mandala Partners, is sharing the OpenAI AI Economic Blueprint for Australia. At a time when boosting productivity has emerged as a national priority for Australia, the Blueprint provides a clear, actionable plan for how Australia can unlock the full economic and social potential of artificial intelligence.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Driving scalable growth with OpenAI o3, GPT-4.1, and CUA",
+      "url": "https://openai.com/index/unify",
+      "published_at": "2025-06-24",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Unify, an AI-powered GTM platform, uses OpenAI’s o3, GPT-4.1, and CUA to automate prospecting, research, and outreach. With hyper-personalized messaging and an always-on workflow, Unify helps teams generate pipeline at scale while focusing on high-impact customer interactions.",
+      "matched_topics": [
+        "GTM",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Bringing the magic of AI to Mattel’s iconic brands",
+      "url": "https://openai.com/index/mattels-iconic-brands",
+      "published_at": "2025-06-12",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI and Mattel are partnering to integrate AI into iconic brands such as Barbie and Hot Wheels, aiming to enhance creative development, streamline workflows, and create new ways for fans to engage.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Scaling security with responsible disclosure",
+      "url": "https://openai.com/index/scaling-coordinated-vulnerability-disclosure",
+      "published_at": "2025-06-09",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI introduces its Outbound Coordinated Disclosure Policy to guide how it responsibly reports vulnerabilities in third-party software—emphasizing integrity, collaboration, and proactive security at scale.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Introducing Codex",
+      "url": "https://openai.com/index/introducing-codex",
+      "published_at": "2025-05-16",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Addendum to o3 and o4-mini system card: Codex",
+      "url": "https://openai.com/index/o3-o4-mini-codex-system-card-addendum",
+      "published_at": "2025-05-16",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Codex is a cloud-based coding agent. Codex is powered by codex-1, a version of OpenAI o3 optimized for software engineering. codex-1 was trained using reinforcement learning on real-world coding tasks in a variety of environments to generate code that closely mirrors human style and PR preferences, adheres precisely to instructions, and iteratively runs tests until passing results are achieved.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "The Washington Post partners with OpenAI on search content",
+      "url": "https://openai.com/global-affairs/the-washington-post-partners-with-openai",
+      "published_at": "2025-04-22",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "The Washington Post is partnering with with OpenAI to integrate news into ChatGPT, providing users with summaries, quotes, and direct links to original reporting.",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "Early methods for studying affective use and emotional well-being on ChatGPT",
+      "url": "https://openai.com/index/affective-use-study",
+      "published_at": "2025-03-21",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "An OpenAI and MIT Media Lab Research collaboration.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Supporting sellers with enhanced product listings",
+      "url": "https://openai.com/index/mercari",
+      "published_at": "2025-02-27",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Mercari leverages GPT-4o mini and GPT-4 to streamline selling, enhance product listings, and boost sales, transforming the online marketplace with features like AI Listing Support and Mercari AI Assistant.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Bertelsmann powers creativity and productivity with OpenAI",
+      "url": "https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai",
+      "published_at": "2025-01-22",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Bertelsmann, the global media, services, and education company headquartered in Germany, will integrate OpenAI’s technology across multiple brands around the world.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Sora System Card",
+      "url": "https://openai.com/index/sora-system-card",
+      "published_at": "2024-12-09",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Sora is OpenAI’s video generation model, designed to take text, image, and video inputs and generate a new video as an output. Sora builds on learnings from DALL-E and GPT models, and is designed to give people expanded tools for storytelling and creative expression.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Animator Lyndon Barrois creates new worlds with Sora",
+      "url": "https://openai.com/index/sora-lyndon-barrois",
+      "published_at": "2024-12-09",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Filmmaker Lyndon Barrois describes how to use Sora as a storytelling tool.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "A Student’s Guide to Writing with ChatGPT",
+      "url": "https://openai.com/chatgpt/use-cases/student-writing-guide",
+      "published_at": "2024-11-13",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "OpenAI’s comments to the NTIA on data center growth, resilience, and security",
+      "url": "https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security",
+      "published_at": "2024-11-04",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "This comment was submitted in response to a request for information from the National Telecommunications and Information Administration (NTIA).",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Evaluating fairness in ChatGPT",
+      "url": "https://openai.com/index/evaluating-fairness-in-chatgpt",
+      "published_at": "2024-10-15",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We've analyzed how ChatGPT responds to users based on their name, using AI research assistants to protect privacy.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Creating agent and human collaboration with GPT 4o",
+      "url": "https://openai.com/index/altera",
+      "published_at": "2024-10-01",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Altera uses GPT-4o to build a new area of human collaboration",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Surging developer productivity with custom GPTs",
+      "url": "https://openai.com/index/paf",
+      "published_at": "2024-06-18",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Paf adopted ChatGPT Enterprise across its entire company, with engineers using custom GPTs on a daily basis to speed up routine development tasks. Paf also integrated ChatGPT Enterprise into the grit:lab coding academy (gritlab.ax), training the next generation of software developers using an AI-augmented, systems-architecture mindset from day one. In addition to the wide range of use cases for developers and grit:lab students, 70% of Paf employees actively use ChatGPT Enterprise, spanning busin",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Disrupting deceptive uses of AI by covert influence operations",
+      "url": "https://openai.com/index/disrupting-deceptive-uses-of-ai-by-covert-influence-operations",
+      "published_at": "2024-05-30",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We’ve terminated accounts linked to covert influence operations; no significant audience increase due to our services.",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "A Content and Product Partnership with Vox Media",
+      "url": "https://openai.com/index/a-content-and-product-partnership-with-vox-media",
+      "published_at": "2024-05-29",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "In a multi-faceted agreement, Vox Media’s content will enhance the output of OpenAI’s ChatGPT, and the company will build on OpenAI’s technology to develop products to better serve its audiences and advertisers.",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "Creating an AI-powered Magic Studio",
+      "url": "https://openai.com/index/canva",
+      "published_at": "2024-05-16",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Canva is a visual communication platform, enjoyed by more than 175 million people monthly to make presentations, videos, documents, websites, social media graphics and more. A majority of the world’s knowledge workers lack design training, but Canva’s combination of an easy-to-use interface, vast libraries, and time-saving tools allows anyone to create visually compelling content.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Klarna's AI assistant does the work of 700 full-time agents",
+      "url": "https://openai.com/index/klarna",
+      "published_at": "2024-04-05",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Klarna is using AI to revolutionize personal shopping, customer service, and employee productivity.",
+      "matched_topics": [
+        "NotebookLM / Gemini",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Building a data-driven, efficient culture with AI",
+      "url": "https://openai.com/index/holiday-extras",
+      "published_at": "2024-03-18",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Holiday Extras rolls out ChatGPT Enterprise across every team, boosting productivity by 500 hours weekly.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Improving mathematical reasoning with process supervision",
+      "url": "https://openai.com/index/improving-mathematical-reasoning-with-process-supervision",
+      "published_at": "2023-05-31",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We've trained a model to achieve a new state-of-the-art in mathematical problem solving by rewarding each correct step of reasoning (“process supervision”) instead of simply rewarding the correct final answer (“outcome supervision”). In addition to boosting performance relative to outcome supervision, process supervision also has an important alignment benefit: it directly trains the model to produce a chain-of-thought that is endorsed by humans.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk",
+      "url": "https://openai.com/index/forecasting-misuse",
+      "published_at": "2023-01-11",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "OpenAI researchers collaborated with Georgetown University’s Center for Security and Emerging Technology and the Stanford Internet Observatory to investigate how large language models might be misused for disinformation purposes. The collaboration included an October 2021 workshop bringing together 30 disinformation researchers, machine learning experts, and policy analysts, and culminated in a co-authored report building on more than a year of research. This report outlines the threats that lan",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "DALL·E 2: Extending creativity",
+      "url": "https://openai.com/index/dall-e-2-extending-creativity",
+      "published_at": "2022-07-14",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "As part of our DALL·E 2 research preview, more than 3,000 artists from more than 118 countries have incorporated DALL·E into their creative workflows. The artists in our early access group have helped us discover new uses for DALL·E and have served as key voices as we’ve made decisions about DALL·E’s features.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "DALL·E 2 pre-training mitigations",
+      "url": "https://openai.com/index/dall-e-2-pre-training-mitigations",
+      "published_at": "2022-06-28",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "In order to share the magic of DALL·E 2 with a broad audience, we needed to reduce the risks associated with powerful image generation models. To this end, we put various guardrails in place to prevent generated images from violating our content policy.",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "AI-written critiques help humans notice flaws",
+      "url": "https://openai.com/index/critiques",
+      "published_at": "2022-06-13",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We trained “critique-writing” models to describe flaws in summaries. Human evaluators find flaws in summaries much more often when shown our model’s critiques. Larger models are better at self-critiquing, with scale improving critique-writing more than summary-writing. This shows promise for using AI systems to assist human supervision of AI systems on difficult tasks.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Powering next generation applications with OpenAI Codex",
+      "url": "https://openai.com/index/codex-apps",
+      "published_at": "2022-05-24",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Codex is now powering 70 different applications across a variety of use cases through the OpenAI API.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "New GPT-3 capabilities: Edit & insert",
+      "url": "https://openai.com/index/gpt-3-edit-insert",
+      "published_at": "2022-03-15",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We’ve released new versions of GPT-3 and Codex which can edit or insert content into existing text, rather than just completing existing text.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "A research agenda for assessing the economic impacts of code generation models",
+      "url": "https://openai.com/index/economic-impacts-research",
+      "published_at": "2022-03-03",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "OpenAI Codex",
+      "url": "https://openai.com/index/openai-codex",
+      "published_at": "2021-08-10",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We’ve created an improved version of OpenAI Codex, our AI system that translates natural language to code, and we are releasing it through our API in private beta starting today.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Improving verifiability in AI development",
+      "url": "https://openai.com/index/improving-verifiability",
+      "published_at": "2020-04-16",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We’ve contributed to a multi-stakeholder report by 58 co-authors at 30 organizations, including the Centre for the Future of Intelligence, Mila, Schwartz Reisman Institute for Technology and Society, Center for Advanced Study in the Behavioral Sciences, and Center for Security and Emerging Technologies. This report describes 10 mechanisms to improve the verifiability of claims made about AI systems. Developers can use these tools to provide evidence that AI systems are safe, secure, fair, or pri",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Why responsible AI development needs cooperation on safety",
+      "url": "https://openai.com/index/cooperation-on-safety",
+      "published_at": "2019-07-10",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We’ve written a policy research paper identifying four strategies that can be used today to improve the likelihood of long-term industry cooperation on safety norms in AI: communicating risks and benefits, technical collaboration, increased transparency, and incentivizing standards. Our analysis shows that industry cooperation on safety will be instrumental in ensuring that AI systems are safe and beneficial, but competitive pressures could lead to a collective action problem, potentially causin",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Introducing Activation Atlases",
+      "url": "https://openai.com/index/introducing-activation-atlases",
+      "published_at": "2019-03-06",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We’ve created activation atlases (in collaboration with Google researchers), a new technique for visualizing what interactions between neurons can represent. As AI systems are deployed in increasingly sensitive contexts, having a better understanding of their internal decision-making processes will let us identify weaknesses and investigate failures.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "AI safety needs social scientists",
+      "url": "https://openai.com/index/ai-safety-needs-social-scientists",
+      "published_at": "2019-02-19",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We’ve written a paper arguing that long-term AI safety research needs social scientists to ensure AI alignment algorithms succeed when actual humans are involved. Properly aligning advanced AI systems with human values requires resolving many uncertainties related to the psychology of human rationality, emotion, and biases. The aim of this paper is to spark further collaboration between machine learning and social science researchers, and we plan to hire social scientists to work on this full ti",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Spinning Up in Deep RL",
+      "url": "https://openai.com/index/spinning-up-in-deep-rl",
+      "published_at": "2018-11-08",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We’re releasing Spinning Up in Deep RL, an educational resource designed to let anyone learn to become a skilled practitioner in deep reinforcement learning. Spinning Up consists of crystal-clear examples of RL code, educational exercises, documentation, and tutorials.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "OpenAI Five Benchmark: Results",
+      "url": "https://openai.com/index/openai-five-benchmark-results",
+      "published_at": "2018-08-06",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "Yesterday, OpenAI Five won a best-of-three against a team of 99.95th percentile Dota players: Blitz, Cap, Fogged, Merlini, and MoonMeander—four of whom have played Dota professionally—in front of a live audience and 100,000 concurrent livestream viewers.",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "Learning policy representations in multiagent systems",
+      "url": "https://openai.com/index/learning-policy-representations-in-multiagent-systems",
+      "published_at": "2018-06-17",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Learning from human preferences",
+      "url": "https://openai.com/index/learning-from-human-preferences",
+      "published_at": "2017-06-13",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "One step towards building safe AI systems is to remove the need for humans to write goal functions, since using a simple proxy for a complex goal, or getting the complex goal a bit wrong, can lead to undesirable and even dangerous behavior. In collaboration with DeepMind’s safety team, we’ve developed an algorithm which can infer what humans want by being told which of two proposed behaviors is better.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Unsupervised sentiment neuron",
+      "url": "https://openai.com/index/unsupervised-sentiment-neuron",
+      "published_at": "2017-04-06",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We’ve developed an unsupervised system which learns an excellent representation of sentiment, despite being trained only to predict the next character in the text of Amazon reviews.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Distill",
+      "url": "https://openai.com/index/distill",
+      "published_at": "2017-03-20",
+      "source_name": "OpenAI News",
+      "source_category": "AI",
+      "summary": "We’re excited to support today’s launch of Distill, a new kind of journal aimed at excellent communication of machine learning results (novel or existing).",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Gemini API File Search is now multimodal: build efficient, verifiable RAG",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+      "published_at": "2026-05-05",
+      "source_name": "Google Blog",
+      "source_category": "AI",
+      "summary": "Gemini API File Search",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "published_at": "2026-05-06",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
+      "matched_topics": [
+        "Codex",
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+      "published_at": "2026-04-15",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "published_at": "2026-04-13",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemma 4: Byte for byte, the most capable open models",
+      "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+      "published_at": "2026-04-02",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+      "published_at": "2026-03-26",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+      "published_at": "2026-03-03",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+      "url": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
+      "published_at": "2026-02-19",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "3.1 Pro is designed for tasks where a simple answer isn’t enough.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "A new way to express yourself: Gemini can now create music",
+      "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+      "published_at": "2026-02-18",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+      "url": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
+      "published_at": "2026-02-12",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
+      "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/",
+      "published_at": "2026-02-09",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Research papers point to the growing impact of Deep Think across fields",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini 3 Flash: frontier intelligence built for speed",
+      "url": "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/",
+      "published_at": "2025-12-17",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Improved Gemini audio models for powerful voice experiences",
+      "url": "https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/",
+      "published_at": "2025-12-12",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Deepening our partnership with the UK AI Security Institute",
+      "url": "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/",
+      "published_at": "2025-12-11",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Google DeepMind and UK AI Security Institute (AISI) strengthen collaboration on critical AI safety and security research",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "How we’re bringing AI image verification to the Gemini app",
+      "url": "https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/",
+      "published_at": "2025-11-20",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Build with Nano Banana Pro, our Gemini 3 Pro Image model",
+      "url": "https://deepmind.google/blog/build-with-nano-banana-pro-our-gemini-3-pro-image-model/",
+      "published_at": "2025-11-20",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Start building with Gemini 3",
+      "url": "https://deepmind.google/blog/start-building-with-gemini-3/",
+      "published_at": "2025-11-18",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "A new era of intelligence with Gemini 3",
+      "url": "https://deepmind.google/blog/a-new-era-of-intelligence-with-gemini-3/",
+      "published_at": "2025-11-18",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "SIMA 2: An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds",
+      "url": "https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/",
+      "published_at": "2025-11-13",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Introducing SIMA 2, a Gemini-powered AI agent that can think, understand, and take actions in interactive environments.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "How AI is giving Northern Ireland teachers time back",
+      "url": "https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/",
+      "published_at": "2025-11-10",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teachers an average of 10 hours per week.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini 2.5 Flash-Lite is now ready for scaled production use",
+      "url": "https://deepmind.google/blog/gemini-25-flash-lite-is-now-ready-for-scaled-production-use/",
+      "published_at": "2025-10-25",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemini 2.5 Flash-Lite, previously in preview, is now stable and generally available. This cost-efficient model provides high quality in a small size, and includes 2.5 family features like a 1 million-token context window and multimodality.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "AlphaEarth Foundations helps map our planet in unprecedented detail",
+      "url": "https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/",
+      "published_at": "2025-10-24",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "New AI model integrates petabytes of Earth observation data to generate a unified data representation that revolutionizes global mapping and monitoring",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Advanced version of Gemini with Deep Think officially achieves gold-medal standard at the International Mathematical Olympiad",
+      "url": "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+      "published_at": "2025-10-24",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "The International Mathematical Olympiad (“IMO”) is the world’s most prestigious competition for young mathematicians, and has been held annually since 1959. Each country taking part is represented by six elite, pre-university mathematicians who compete to solve six exceptionally difficult problems in algebra, combinatorics, geometry, and number theory.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini achieves gold-medal level at the International Collegiate Programming Contest World Finals",
+      "url": "https://deepmind.google/blog/gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals/",
+      "published_at": "2025-10-24",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemini 2.5 Deep Think achieves breakthrough performance at the world’s most prestigious computer programming competition, demonstrating a profound leap in abstract problem solving.",
+      "matched_topics": [
+        "NotebookLM / Gemini",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Gemini Robotics 1.5 brings AI agents into the physical world",
+      "url": "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+      "published_at": "2025-10-23",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "We’re powering an era of physical agents — enabling robots to perceive, plan, think, use tools and act to better solve complex, multi-step tasks.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Try Deep Think in the Gemini app",
+      "url": "https://deepmind.google/blog/try-deep-think-in-the-gemini-app/",
+      "published_at": "2025-10-23",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "We're rolling out Deep Think in the Gemini app for Google AI Ultra subscribers, and we're giving select mathematicians access to the full version of the Gemini 2.5 Deep Think model entered into the IMO competition.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Image editing in Gemini just got a major upgrade",
+      "url": "https://deepmind.google/blog/image-editing-in-gemini-just-got-a-major-upgrade/",
+      "published_at": "2025-10-23",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Transform images in amazing new ways with updated native image editing in the Gemini app.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Introducing the Gemini 2.5 Computer Use model",
+      "url": "https://deepmind.google/blog/introducing-the-gemini-25-computer-use-model/",
+      "published_at": "2025-10-23",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Available in preview via the API, our Computer Use model is a specialized model built on Gemini 2.5 Pro’s capabilities to power agents that can interact with user interfaces.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini Robotics On-Device brings AI to local robotic devices",
+      "url": "https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
+      "published_at": "2025-06-24",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "We’re introducing an efficient, on-device robotics model with general-purpose dexterity and fast task adaptation.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini 2.5: Updates to our family of thinking models",
+      "url": "https://deepmind.google/blog/gemini-25-updates-to-our-family-of-thinking-models/",
+      "published_at": "2025-06-17",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Explore the latest Gemini 2.5 model updates with enhanced performance and accuracy: Gemini 2.5 Pro now stable, Flash generally available, and the new Flash-Lite in preview.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "We’re expanding our Gemini 2.5 family of models",
+      "url": "https://deepmind.google/blog/were-expanding-our-gemini-25-family-of-models/",
+      "published_at": "2025-06-17",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Advanced audio dialog and generation with Gemini 2.5",
+      "url": "https://deepmind.google/blog/advanced-audio-dialog-and-generation-with-gemini-25/",
+      "published_at": "2025-06-03",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemini 2.5 has new capabilities in AI-powered audio dialog and generation.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini 2.5: Our most intelligent models are getting even better",
+      "url": "https://deepmind.google/blog/gemini-25-our-world-leading-model-is-getting-even-better/",
+      "published_at": "2025-05-20",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemini 2.5 Pro continues to be loved by developers as the best model for coding, and 2.5 Flash is getting even better with a new update. We’re bringing new capabilities to our models, including Deep Think, an experimental enhanced reasoning mode for 2.5 Pro.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Advancing Gemini's security safeguards",
+      "url": "https://deepmind.google/blog/advancing-geminis-security-safeguards/",
+      "published_at": "2025-05-20",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "We’ve made Gemini 2.5 our most secure model family to date.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Our vision for building a universal AI assistant",
+      "url": "https://deepmind.google/blog/our-vision-for-building-a-universal-ai-assistant/",
+      "published_at": "2025-05-20",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "We’re extending Gemini to become a world model that can make plans and imagine new experiences by simulating aspects of the world.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Announcing Gemma 3n preview: Powerful, efficient, mobile-first AI",
+      "url": "https://deepmind.google/blog/announcing-gemma-3n-preview-powerful-efficient-mobile-first-ai/",
+      "published_at": "2025-05-20",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemma 3n is a cutting-edge open model designed for fast, multimodal AI on devices, featuring optimized performance, unique flexibility with a 2-in-1 model, and expanded multimodal understanding with audio, empowering developers to build live, interactive applications and sophisticated audio-centric experiences.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
+      "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "published_at": "2025-05-14",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "New AI agent evolves algorithms for math and practical applications in computing by combining the creativity of large language models with automated evaluators",
+      "matched_topics": [
+        "Codex",
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini 2.5 Pro Preview: even better coding performance",
+      "url": "https://deepmind.google/blog/gemini-25-pro-preview-even-better-coding-performance/",
+      "published_at": "2025-05-06",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "We’ve seen developers doing amazing things with Gemini 2.5 Pro, so we decided to release an updated version a couple of weeks early to get into developers hands sooner.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Build rich, interactive web apps with an updated Gemini 2.5 Pro",
+      "url": "https://deepmind.google/blog/build-rich-interactive-web-apps-with-an-updated-gemini-25-pro/",
+      "published_at": "2025-05-06",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Our updated version of Gemini 2.5 Pro Preview has improved capabilities for coding.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Introducing Gemini 2.5 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-2-5-flash/",
+      "published_at": "2025-04-17",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemini 2.5 Flash is our first fully hybrid reasoning model, giving developers the ability to turn thinking on or off.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Generate videos in Gemini and Whisk with Veo 2",
+      "url": "https://deepmind.google/blog/generate-videos-in-gemini-and-whisk-with-veo-2/",
+      "published_at": "2025-04-15",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Transform text-based prompts into high-resolution eight-second videos in Gemini Advanced and use Whisk Animate to turn images into eight-second animated clips.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "DolphinGemma: How Google AI is helping decode dolphin communication",
+      "url": "https://deepmind.google/blog/dolphingemma-how-google-ai-is-helping-decode-dolphin-communication/",
+      "published_at": "2025-04-14",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hopefully find out what they're saying, too.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Taking a responsible path to AGI",
+      "url": "https://deepmind.google/blog/taking-a-responsible-path-to-agi/",
+      "published_at": "2025-04-02",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "We’re exploring the frontiers of AGI, prioritizing technical safety, proactive risk assessment, and collaboration with the AI community.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Gemini 2.5: Our most intelligent AI model",
+      "url": "https://deepmind.google/blog/gemini-2-5-our-most-intelligent-ai-model/",
+      "published_at": "2025-03-25",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemini 2.5 is our most intelligent AI model, now with thinking built in.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini Robotics brings AI into the physical world",
+      "url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+      "published_at": "2025-03-12",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Introducing Gemini Robotics and Gemini Robotics-ER, AI models designed for robots to understand, act and react to the physical world.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Experiment with Gemini 2.0 Flash native image generation",
+      "url": "https://deepmind.google/blog/experiment-with-gemini-20-flash-native-image-generation/",
+      "published_at": "2025-03-12",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Native image output is available in Gemini 2.0 Flash for developers to experiment with in Google AI Studio and the Gemini API.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Start building with Gemini 2.0 Flash and Flash-Lite",
+      "url": "https://deepmind.google/blog/start-building-with-gemini-20-flash-and-flash-lite/",
+      "published_at": "2025-02-25",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "Gemini 2.0 Flash-Lite is now generally available in the Gemini API for production use in Google AI Studio and for enterprise customers on Vertex AI",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini 2.0 is now available to everyone",
+      "url": "https://deepmind.google/blog/gemini-2-0-is-now-available-to-everyone/",
+      "published_at": "2025-02-05",
+      "source_name": "Google DeepMind Blog",
+      "source_category": "AI",
+      "summary": "We’re announcing new updates to Gemini 2.0 Flash, plus introducing Gemini 2.0 Flash-Lite and Gemini 2.0 Pro Experimental.",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Gemini 3.1 Flash-Lite is now generally available on Gemini Enterprise Agent Platform",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-1-flash-lite-is-now-generally-available/",
+      "published_at": "2026-05-07",
+      "source_name": "Google Cloud Blog",
+      "source_category": "Data Analytics",
+      "summary": "Today, we’re thrilled to announce that Gemini 3.1 Flash-Lite, our fastest and most cost-efficient Gemini 3 series model yet, is now generally available . Designed for ultra-low latency, high-volume tasks, and unmatched cost-efficiency, Flash-Lite is already transforming how applications are built at scale. Fast, iterative, and scalable, it joins our comprehensive suite of Pro and Flash models to provide the exact combination of intelligence, speed, and cost required for the most demanding produc",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Pioneering AI-assisted code migration: How Google achieved 6x faster migration from TensorFlow to JAX",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/6x-faster-migration-from-tensorflow-to-jax/",
+      "published_at": "2026-05-06",
+      "source_name": "Google Cloud Blog",
+      "source_category": "Data Analytics",
+      "summary": "AI coding agents are rapidly becoming ubiquitous across the software industry, fundamentally changing how developers write, test, and debug daily code. While these tools excel at localized, self-contained tasks, applying them to massive, systemic codebase migrations requires an entirely new approach. Google is already addressing this challenge by incorporating AI into many migration workflows: x86 to ARM (enabling workloads on Google Axion processors); int32 to int64 identifiers (to avoid runnin",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "The Blueprint: Translating stream-of-conscious speech into responsive, actionable task lists",
+      "url": "https://cloud.google.com/blog/topics/startups/the-blueprint-doist-stream-of-consciousness-ai-task-list-creation/",
+      "published_at": "2026-05-06",
+      "source_name": "Google Cloud Blog",
+      "source_category": "Data Analytics",
+      "summary": "Welcome to The Blueprint, a new feature where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to inspire others looking to innovate in their work . Founded in 2007, Doist is a pioneer in async and remote-first work on a mission to simplify life’s complexities through apps like Todoist for task management and Twist for team communication. The challenge: We launched Ramble to take our popular To",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Google named a Leader in the 2026 Gartner® Magic Quadrant™ for Cyberthreat Intelligence Technologies",
+      "url": "https://cloud.google.com/blog/products/identity-security/google-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cyberthreat-intelligence-technologies/",
+      "published_at": "2026-05-06",
+      "source_name": "Google Cloud Blog",
+      "source_category": "Data Analytics",
+      "summary": "At Google, we see firsthand how cyber threats can outpace traditional defense mechanisms — and how agentic threat intelligence can help bridge the gap. We have a vision for agentic defense where autonomous AI agents, powered by Gemini and fed by our unmatched threat visibility, can reason through complex malware and preemptively neutralize threats at scale. This evolution can help security teams shift from anticipating risks to autonomously disrupting attack chains in real-time, effectively out-",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Five must-have guides to move agents into production with Gemini Enterprise Agent Platform",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/five-guides-to-building-and-scaling-production-ready-ai-agents/",
+      "published_at": "2026-05-05",
+      "source_name": "Google Cloud Blog",
+      "source_category": "Data Analytics",
+      "summary": "Building AI agents that work well in a demo is one thing, but running them in production requires serious infrastructure. At Google Cloud Next '26, we introduced Gemini Enterprise Agent Platform to help developers build, deploy, scale, govern, and optimize autonomous AI agents. From managing long-running state and enforcing security with the Agent Governance Stack, to orchestrating complex workflows using Agent Development Kit, these tools help you treat your agent fleet with the same rigor as y",
+      "matched_topics": [
+        "NotebookLM / Gemini",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Introducing Agent Gateway ISV ecosystem for security and governance",
+      "url": "https://cloud.google.com/blog/products/identity-security/introducing-agent-gateway-isv-ecosystem-for-security-and-governance/",
+      "published_at": "2026-05-05",
+      "source_name": "Google Cloud Blog",
+      "source_category": "Data Analytics",
+      "summary": "Managing agents and their actions can quickly grow in complexity and introduce security risks unique to AI. To address these challenges, at Google Cloud Next we announced Agent Gateway to provide simple, secure, and governed connectivity across all user-to-agent, agent-to-agent, and agent-to-tools interactions. As part of Gemini Enterprise Agent Platform , Agent Gateway provides a programmable data plane for your AI agents. It connects easily with a wide array of security providers, giving your ",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Scaling data and AI with Managed Service for Apache Airflow",
+      "url": "https://cloud.google.com/blog/products/data-analytics/managed-apache-airflow-scaling-data-and-ai-workloads/",
+      "published_at": "2026-05-04",
+      "source_name": "Google Cloud Blog",
+      "source_category": "Data Analytics",
+      "summary": "Orchestration is no longer just about moving data; it is about governing enterprise intelligence. To reflect our deep commitment to and embrace of open-source software, we shared earlier that Cloud Composer is now officially Managed Service for Apache Airflow . We announced a massive leap forward in our orchestration capabilities, fundamentally reimagining how data teams operate in the AI era. With four major launches, we are embedding AI directly into your workflows to democratize access, accel",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "What Google Cloud announced in AI this month",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/",
+      "published_at": "2026-04-30",
+      "source_name": "Google Cloud Blog",
+      "source_category": "Data Analytics",
+      "summary": "Editor’s note : Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more. We hosted Google Cloud Next in Las Vegas on April 22, announcing incredible innovations from Gemini Enterprise Agent Platform to our eight-generation TPUs. We also expanded the Gemini Enterprise app in collaborative ways – now, with new features like Projects, you can work side-by-side with your agents an",
+      "matched_topics": [
+        "NotebookLM / Gemini"
+      ]
+    },
+    {
+      "title": "Building a better data agent benchmark",
+      "url": "https://docs.getdbt.com/blog/building-a-better-data-agent-benchmark",
+      "published_at": "2026-04-15",
+      "source_name": "dbt Developer Blog",
+      "source_category": "Data Analytics",
+      "summary": "An update on ADE-bench, why context is critical to agentic workflows, and how you can improve your own team's agent eval loop.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Semantic Layer vs. Text-to-SQL: 2026 Benchmark Update",
+      "url": "https://docs.getdbt.com/blog/semantic-layer-vs-text-to-sql-2026",
+      "published_at": "2026-04-07",
+      "source_name": "dbt Developer Blog",
+      "source_category": "Data Analytics",
+      "summary": "With 2026's best models, the dbt Semantic Layer hits near-100% accuracy for covered queries. Here's what changed and what didn't in our updated benchmark.",
+      "matched_topics": [
+        "Snowflake"
+      ]
+    },
+    {
+      "title": "Make your AI better at data work with dbt's agent skills",
+      "url": "https://docs.getdbt.com/blog/dbt-agent-skills",
+      "published_at": "2026-02-05",
+      "source_name": "dbt Developer Blog",
+      "source_category": "Data Analytics",
+      "summary": "We built a collection of Agent Skills to make coding agents better at using dbt projects and doing analytics work.",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Modernizing the Semantic Layer Spec",
+      "url": "https://docs.getdbt.com/blog/modernizing-the-semantic-layer-spec",
+      "published_at": "2026-01-21",
+      "source_name": "dbt Developer Blog",
+      "source_category": "Data Analytics",
+      "summary": "Learn about the new semantic layer specification and how it improves data modeling.",
+      "matched_topics": [
+        "Snowflake"
+      ]
+    },
+    {
+      "title": "Introducing the dbt MCP Server – Bringing Structured Data to AI Workflows and Agents",
+      "url": "https://docs.getdbt.com/blog/introducing-dbt-mcp-server",
+      "published_at": "2025-04-21",
+      "source_name": "dbt Developer Blog",
+      "source_category": "Data Analytics",
+      "summary": "We’re open‑sourcing an experimental dbt MCP server so LLMs and agents can discover, query, and run your dbt project.",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "A guide to capacity planning for Airflow worker pool in Amazon MWAA",
+      "url": "https://aws.amazon.com/blogs/big-data/a-guide-to-capacity-planning-for-airflow-worker-pool-in-amazon-mwaa/",
+      "published_at": "2026-05-01",
+      "source_name": "AWS Big Data Blog",
+      "source_category": "Data Analytics",
+      "summary": "In our previous post, A guide to Airflow worker pool optimization in Amazon MWAA, we explored when adding workers to your Amazon Managed Workflows for Apache Airflow (Amazon MWAA) environment actually solves performance issues, and when it doesn’t. We walked through patterns like high CPU utilization and long queue times where scaling may be appropriate, […]",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "A guide to Airflow worker pool optimization in Amazon MWAA",
+      "url": "https://aws.amazon.com/blogs/big-data/a-guide-to-airflow-worker-pool-optimization-in-amazon-mwaa/",
+      "published_at": "2026-05-01",
+      "source_name": "AWS Big Data Blog",
+      "source_category": "Data Analytics",
+      "summary": "Optimizing the Airflow worker pool configuration in Amazon Managed Workflows for Apache Airflow (Amazon MWAA), the AWS fully managed Apache Airflow service, is an important yet often overlooked strategy for scaling workflow operations. Tasks queued for longer periods can create the illusion that additional workers are the solution, when in reality the root cause might […]",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "WordPress 7.0 Will Ship Without Real-Time Collaboration via @sejournal, @martinibuster",
+      "url": "https://www.searchenginejournal.com/wordpress-7-0-will-ship-without-real-time-collaboration/574330/",
+      "published_at": "2026-05-08",
+      "source_name": "Search Engine Journal",
+      "source_category": "Marketing Analytics",
+      "summary": "WordPress delays rollout of real-time collaboration. Co-founder Mullenweg cites WPE lawsuit as a distraction hampering progress. The post WordPress 7.0 Will Ship Without Real-Time Collaboration appeared first on Search Engine Journal .",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Bing Reveals What Grounding Means For AI Search Visibility via @sejournal, @MattGSouthern",
+      "url": "https://www.searchenginejournal.com/bing-team-describes-how-grounding-differs-from-search-indexing/574119/",
+      "published_at": "2026-05-06",
+      "source_name": "Search Engine Journal",
+      "source_category": "Marketing Analytics",
+      "summary": "Microsoft's Bing team published a framework describing how grounding for AI-generated answers differs from traditional search across five measurement areas. The post Bing Reveals What Grounding Means For AI Search Visibility appeared first on Search Engine Journal .",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "How video helps you build better AI content with RAG",
+      "url": "https://martech.org/how-video-helps-you-build-better-ai-content-with-rag/",
+      "published_at": "2026-05-08",
+      "source_name": "MarTech",
+      "source_category": "Marketing Analytics",
+      "summary": "Use video interviews, transcripts, and retrieval-augmented generation workflows to create more original and differentiated content. The post How video helps you build better AI content with RAG appeared first on MarTech .",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Gmail’s AI Inbox may redefine deliverability",
+      "url": "https://martech.org/gmails-ai-inbox-may-redefine-deliverability/",
+      "published_at": "2026-05-08",
+      "source_name": "MarTech",
+      "source_category": "Marketing Analytics",
+      "summary": "AI-generated summaries and prioritization could determine which emails actually get seen and which disappear into the background. The post Gmail’s AI Inbox may redefine deliverability appeared first on MarTech .",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Customer Engagement Analytics Best Practices & Metrics",
+      "url": "https://measureschool.com/customer-engagement-analytics/",
+      "published_at": "2025-04-16",
+      "source_name": "MeasureSchool",
+      "source_category": "Marketing Analytics",
+      "summary": "MeasureSchool Customer Engagement Analytics Best Practices & Metrics It’s not always clear whether your audience is truly engaged or just passing through. Customer engagement analytics helps you figure out who’s sticking around and what’s driving customers to take action. When businesses pay attention to these insights, they can keep customers coming back, and, in the long run, turn more interactions into conversions. We’ll ... Read more The post Customer Engagement Analytics Best Practices & Me",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "Google Analytics Unique Visitors Guide",
+      "url": "https://measureschool.com/google-analytics-unique-visitors/",
+      "published_at": "2025-03-26",
+      "source_name": "MeasureSchool",
+      "source_category": "Marketing Analytics",
+      "summary": "MeasureSchool Google Analytics Unique Visitors Guide Last Modified on March 26, 2025 Total users, active users, new users, returning users, sessions, and the list goes on… so many metrics to look at. No wonder you can become confused quickly when it comes to understanding the difference between all these metrics and dimensions. Besides, what we might think of as a metric ... Read more The post Google Analytics Unique Visitors Guide first appeared on MeasureSchool and is written by Usman Qureshi ",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "GA4 RegEx Tutorial for Beginners",
+      "url": "https://measureschool.com/ga4-regex-tutorial/",
+      "published_at": "2025-02-16",
+      "source_name": "MeasureSchool",
+      "source_category": "Marketing Analytics",
+      "summary": "MeasureSchool GA4 RegEx Tutorial for Beginners Last Modified on February 17, 2025 Digital analytics has come a long way in making our lives easier when it comes to collecting, analyzing, and getting valuable insights. Regular Expressions aka RegEx, RegExp, or RegEx has played an important role in making it easier for us. Anyone who has worked with Google Tag Manager and/or ... Read more The post GA4 RegEx Tutorial for Beginners first appeared on MeasureSchool and is written by Usman Qureshi .",
+      "matched_topics": [
+        "GTM",
+        "GA4"
+      ]
+    },
+    {
+      "title": "Guide to UTM Parameters in Google Analytics 4",
+      "url": "https://measureschool.com/utm-parameters-in-google-analytics-4/",
+      "published_at": "2025-02-16",
+      "source_name": "MeasureSchool",
+      "source_category": "Marketing Analytics",
+      "summary": "MeasureSchool Guide to UTM Parameters in Google Analytics 4 Last Modified on February 17, 2025 UTM parameters are essential for tracking website traffic sources in Google Analytics 4. You’ve now successfully created UTM parameters for your incoming links, but don’t know how to see them in your GA4 account. There are numerous tutorials on creating UTM parameters, but only a few show how to ... Read more The post Guide to UTM Parameters in Google Analytics 4 first appeared on MeasureSchool and is ",
+      "matched_topics": [
+        "GA4"
+      ]
+    },
+    {
+      "title": "Presentation: Leadership in AI-Assisted Engineering",
+      "url": "https://www.infoq.com/presentations/ai-assisted-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "published_at": "2026-05-08",
+      "source_name": "InfoQ",
+      "source_category": "Engineering",
+      "summary": "Justin Reock discusses the reality of AI’s impact on engineering, moving past anecdotes to hard data from DORA and DX research. He explains the \"GenAI Divide\" - where 95% of pilots fail - and shares how leaders can use the SPACE and Core 4 frameworks to measure true ROI. He explains how to balance speed with quality, reduce developer fear, and apply agentic solutions across the entire SDLC. By Justin Reock",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "OpenAI Introduces Websocket-Based Execution Mode to Reduce Latency in Agentic Workflows",
+      "url": "https://www.infoq.com/news/2026/05/openai-websocket-responses-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "published_at": "2026-05-07",
+      "source_name": "InfoQ",
+      "source_category": "Engineering",
+      "summary": "OpenAI introduces a WebSocket-based execution mode for its Responses API to improve agentic workflow performance in coding agents and real-time AI systems. The update reduces latency by up to 40 percent by replacing HTTP request-response cycles with persistent connections, improving streaming, tool execution, and multi-step orchestration in production-scale AI systems. By Leela Kumili",
+      "matched_topics": [
+        "Codex",
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Presentation: Engineering at AI Speed: Lessons from the First Agentically Accelerated Software Project",
+      "url": "https://www.infoq.com/presentations/engineering-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "published_at": "2026-05-07",
+      "source_name": "InfoQ",
+      "source_category": "Engineering",
+      "summary": "Adam Wolff discusses the evolution of Claude Code, explaining how AI shifts the SDLC bottleneck from implementation to architectural decision-making. He shares three \"war stories\" to show why dogfooding and rapid unshipping are vital. He explains that when coding costs drop to zero, the speed of learning becomes the only competitive advantage. By Adam Wolff",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "LinkedIn Consolidates Hiring Data Pipelines to Power AI Driven Talent Systems",
+      "url": "https://www.infoq.com/news/2026/05/linkedin-unified-hiring-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "published_at": "2026-05-06",
+      "source_name": "InfoQ",
+      "source_category": "Engineering",
+      "summary": "LinkedIn introduced a unified integrations platform to standardize and reconcile hiring data across systems. The platform reduces onboarding time by 72%, improves data consistency and completeness, and enables scalable AI-driven hiring features through standardized schemas, orchestration workflows, and centralized data processing. By Leela Kumili",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Presentation: AI-First Software Delivery: Balancing Innovation with Proven Practices",
+      "url": "https://www.infoq.com/presentations/ai-first-practices/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "published_at": "2026-05-06",
+      "source_name": "InfoQ",
+      "source_category": "Engineering",
+      "summary": "Wes Reisz discusses the shift toward AI-first software delivery, emphasizing that agentic workflows are not one-size-fits-all. He explains a strategic two-by-two model based on code longevity and automated verification to decide between supervised and unsupervised agents. He shares the RIPER-5 framework - Research, Innovate, Plan, Execute, Review - to amplify engineering discipline. By Wes Reisz",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Google New TPU Generation is Specifically Designed for Agents and SOTA Model Training",
+      "url": "https://www.infoq.com/news/2026/05/google-8th-tpu-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "published_at": "2026-05-06",
+      "source_name": "InfoQ",
+      "source_category": "Engineering",
+      "summary": "Google has unvelied a new generation of Tensor Processing Units (TPUs), featuring two specialized chips designed to accelerate model training and agent workflows, which require continuous, multi-step reasoning, and action loops distributed across multiple models. The new TPUs deliver better performance, memory, and energy efficiency, the company says. By Sergio De Simone",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Improving token efficiency in GitHub Agentic Workflows",
+      "url": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
+      "published_at": "2026-05-07",
+      "source_name": "GitHub Blog",
+      "source_category": "Engineering",
+      "summary": "Agentic workflows that run on every pull request can quietly accumulate large API bills. Here's how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them. The post Improving token efficiency in GitHub Agentic Workflows appeared first on The GitHub Blog .",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Validating agentic behavior when “correct” isn’t deterministic",
+      "url": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
+      "published_at": "2026-05-06",
+      "source_name": "GitHub Blog",
+      "source_category": "Engineering",
+      "summary": "How to build the “Trust Layer” for Github Copilot Coding Agents without brittle scripts or black-box judgements by using dominatory analysis. The post Validating agentic behavior when “correct” isn’t deterministic appeared first on The GitHub Blog .",
+      "matched_topics": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Securing MCP: A Control Plane for Agent Tool Execution",
+      "url": "https://devblogs.microsoft.com/blog/securing-mcp-a-control-plane-for-agent-tool-execution",
+      "published_at": "2026-04-22",
+      "source_name": "Microsoft DevBlogs",
+      "source_category": "Engineering",
+      "summary": "The Model Context Protocol (MCP) is quickly becoming a common way for AI agents to discover and use tools. It provides a consistent interface to databases, APIs, file systems, and third-party services, which makes it easier to plug capabilities into agent workflows. However, MCP standardizes the execution surface without defining how that surface should be […] The post Securing MCP: A Control Plane for Agent Tool Execution appeared first on Microsoft for Developers .",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "Take your PostgreSQL-backed apps to the next level",
+      "url": "https://devblogs.microsoft.com/blog/take-your-postgresql-backed-apps-to-the-next-level",
+      "published_at": "2026-04-14",
+      "source_name": "Microsoft DevBlogs",
+      "source_category": "Engineering",
+      "summary": "PostgreSQL is a powerful and hugely popular database engine, and it really comes alive across Microsoft developer platforms. You can build with PostgreSQL across Azure offerings, develop productively in Visual Studio Code with strong extensions and tooling, and connect your data to agentic development workflows and AI services. There’s amazing opportunity to bring those pieces […] The post Take your PostgreSQL-backed apps to the next level appeared first on Microsoft for Developers .",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    },
+    {
+      "title": "GitHub Copilot Dev Days: Build faster with GitHub Copilot CLI, in VS Code & Visual Studio, and beyond!",
+      "url": "https://devblogs.microsoft.com/blog/github-copilot-dev-days",
+      "published_at": "2026-03-02",
+      "source_name": "Microsoft DevBlogs",
+      "source_category": "Engineering",
+      "summary": "Modern software development is moving fast—and AI is now a practical part of how Microsoft developers design, build, and ship applications every day. From writing code in Visual Studio and VS Code, to building cloud-native apps on Azure, developers are looking for ways to stay productive without sacrificing quality. That’s exactly why GitHub Copilot Dev […] The post GitHub Copilot Dev Days: Build faster with GitHub Copilot CLI, in VS Code & Visual Studio, and beyond! appeared first on Microsoft ",
+      "matched_topics": [
+        "Business Skills"
+      ]
+    }
+  ]
+}

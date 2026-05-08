@@ -1,0 +1,175 @@
+topics:
+  - name: Codex
+    keywords:
+      - codex
+      - openai codex
+      - coding agent
+      - ai coding
+      - code generation
+      - developer workflow
+      - software engineering agent
+      - llm coding
+
+  - name: Snowflake
+    keywords:
+      - snowflake
+      - snowpark
+      - cortex analyst
+      - snowpipe
+      - data warehouse
+      - data cloud
+      - sql analytics
+      - data engineering
+      - semantic layer
+
+  - name: GTM
+    keywords:
+      - gtm
+      - google tag manager
+      - tag manager
+      - server-side tagging
+      - consent mode
+      - tagging
+      - conversion tracking
+      - web tracking
+
+  - name: GA4
+    keywords:
+      - ga4
+      - google analytics
+      - google analytics 4
+      - event tracking
+      - measurement
+      - attribution
+      - audience
+      - reporting
+      - analytics dashboard
+
+  - name: NotebookLM / Gemini
+    keywords:
+      - notebooklm
+      - gemini
+      - google gemini
+      - gemini workspace
+      - ai assistant
+      - research assistant
+      - document analysis
+      - multimodal ai
+
+  - name: Business Skills
+    keywords:
+      - task management
+      - project management
+      - meeting
+      - collaboration
+      - communication
+      - stakeholder
+      - documentation
+      - presentation
+      - productivity
+      - teamwork
+      - facilitation
+      - note taking
+      - writing
+      - workflow
+      - remote work
+      - knowledge work
+      - decision making
+      - problem solving
+      - meeting notes
+      - meeting agenda
+      - note taking
+      - time management
+      - prioritization
+      - presentation
+      - slide design
+      - storytelling
+      - business writing
+      - stakeholder management
+      - knowledge management
+      - team productivity
+
+sources:
+  - name: OpenAI News
+    category: AI
+    url: https://openai.com/news/rss.xml
+
+  - name: OpenAI Blog
+    category: AI
+    url: https://openai.com/blog/rss.xml
+
+  - name: Google Blog
+    category: AI
+    url: https://blog.google/rss/
+
+  - name: Google DeepMind Blog
+    category: AI
+    url: https://deepmind.google/blog/rss.xml
+
+  - name: Google Cloud Blog
+    category: Data Analytics
+    url: https://cloudblog.withgoogle.com/rss/
+
+  - name: Snowflake Blog
+    category: Data Analytics
+    url: https://www.snowflake.com/blog/feed/
+
+  - name: dbt Developer Blog
+    category: Data Analytics
+    url: https://docs.getdbt.com/blog/rss.xml
+
+  - name: Databricks Blog
+    category: Data Analytics
+    url: https://www.databricks.com/blog/rss.xml
+
+  - name: AWS Big Data Blog
+    category: Data Analytics
+    url: https://aws.amazon.com/blogs/big-data/feed/
+
+  - name: Search Engine Journal
+    category: Marketing Analytics
+    url: https://www.searchenginejournal.com/feed/
+
+  - name: MarTech
+    category: Marketing Analytics
+    url: https://martech.org/feed/
+
+  - name: Analytics Mania
+    category: Marketing Analytics
+    url: https://www.analyticsmania.com/feed/
+
+  - name: MeasureSchool
+    category: Marketing Analytics
+    url: https://measureschool.com/feed/
+
+  - name: InfoQ
+    category: Engineering
+    url: https://feed.infoq.com/
+
+  - name: GitHub Blog
+    category: Engineering
+    url: https://github.blog/feed/
+
+  - name: Microsoft DevBlogs
+    category: Engineering
+    url: https://devblogs.microsoft.com/feed/
+
+  - name: Atlassian Blog
+    category: Business Skills
+    url: https://www.atlassian.com/blog/feed
+
+  - name: Asana Blog
+    category: Business Skills
+    url: https://asana.com/resources/rss
+
+  - name: Harvard Business Review
+    category: Business Skills
+    url: https://hbr.org/feed
+
+  - name: Zapier Blog
+    category: Business Skills
+    url: https://zapier.com/blog/rss/
+
+  - name: Notion Blog
+    category: Business Skills
+    url: https://www.notion.so/blog/rss.xml
