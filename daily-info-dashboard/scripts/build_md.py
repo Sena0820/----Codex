@@ -381,6 +381,10 @@ def build_html(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
   <title>{html.escape(title)}</title>
   <style>
     :root {{
@@ -574,6 +578,10 @@ def build_archive_index(dates: list[str]) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
   <title>Daily Info Dashboard Archive</title>
   <style>
     body {{
@@ -629,6 +637,8 @@ def build_latest_index(latest_date: str) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="referrer" content="no-referrer">
   <meta http-equiv="refresh" content="0; url=./{html.escape(latest_date)}/index.html">
   <title>Daily Info Dashboard</title>
 </head>
@@ -664,6 +674,7 @@ def write_site_pages(
     (archive_dir / "index.html").write_text(build_archive_index(existing_dates), encoding="utf-8")
     (SITE_DIR / "index.html").write_text(build_latest_index(target_date), encoding="utf-8")
     (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
+    (SITE_DIR / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
 
 
 def build_markdown(generated_at: str, target_date: str, items: list[dict[str, Any]]) -> str:
@@ -729,4 +740,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
